@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Wall
+  - Enemy
+  - KillZone
+  - Wood
+  - Fx
+  - FxTemporaire
+  - Soul
+  - DashCircle
+  - CamouflageCircle
+  - HealShieldCircle
+  - ShurikenCircle
+  - DashDescription
+  - ShurikenDescription
+  - HealShieldDescription
+  - CamouflageDescription
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Background
+  - Water
+  - UI
+  - Player
+  - Enemy
+  - Projectile
+  - CheckTerrain
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 4270982249
+    locked: 0
+  - name: Element
+    uniqueID: 840242641
+    locked: 0
+  - name: Player & Enemy
+    uniqueID: 1869730419
+    locked: 0
+  - name: Bullet
+    uniqueID: 662272025
+    locked: 0
