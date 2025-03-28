@@ -65,7 +65,7 @@ Transform:
   - {fileID: 4482293572110473}
   m_Father: {fileID: 4101971662316051}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -82.40001}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 48.54003}
 --- !u!50 &50261036464741678
 Rigidbody2D:
   serializedVersion: 4
@@ -5217,6 +5217,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4246342361955328}
+  - component: {fileID: 1541975469}
+  - component: {fileID: 1541975470}
   m_Layer: 18
   m_Name: Ragdoll 1
   m_TagString: Untagged
@@ -5234,12 +5236,45 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -23.73228, y: 22.544712, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4743407777191015}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!95 &1541975469
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173018981024530}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 30227e027e894834397d5feddaea71bd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1541975470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173018981024530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0af98627bff0c374f88684b6529739ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1181417935549067
 GameObject:
   m_ObjectHideFlags: 0
@@ -8267,7 +8302,7 @@ Transform:
   - {fileID: 4510191213393616}
   m_Father: {fileID: 4576920221200140}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 36.899963}
 --- !u!1 &1869744888616733
 GameObject:
   m_ObjectHideFlags: 0
@@ -8596,7 +8631,7 @@ Transform:
   - {fileID: 4101971662316051}
   m_Father: {fileID: 4743407777191015}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1985773729076502
 GameObject:
   m_ObjectHideFlags: 0

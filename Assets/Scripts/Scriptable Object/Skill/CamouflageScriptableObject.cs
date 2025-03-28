@@ -5,8 +5,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Camouflage Skill Upgrade Data", menuName = "Data/Skill Upgrade/Camouflage")]
 public class CamouflageScriptableObject : SkillUpgradeScriptableObject
 {
-    [SerializeField] private float cooldown;
-    public float Cooldown { get => cooldown; private set => cooldown = value; }
+    [SerializeField] private int cooldown;
+    public int Cooldown { get => cooldown; private set => cooldown = value; }
 
     [SerializeField] private int diguiseDuration;
     public int DiguiseDuration { get => diguiseDuration; private set => diguiseDuration = value; }

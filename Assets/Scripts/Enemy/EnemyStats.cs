@@ -1,14 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public abstract class EnemyStats : MonoBehaviour
 {
     private Rigidbody2D rb;
+    private BoxCollider2D boxCollider;
+    private CircleCollider2D circleCollider;
     [SerializeField] private EnemyScriptableObject enemyData;
     [SerializeField] private GameObject player;
     [SerializeField] private Transform waypoint_1;
     [SerializeField] private Transform waypoint_2;
+    [SerializeField] private Transform rayDetectPlayerPosition;
     private Vector2 rayDetectingDirection;
     private Vector2 rayAttackingDirection;
 
@@ -18,7 +22,10 @@ public abstract class EnemyStats : MonoBehaviour
     public bool isDetecting = false;
     public bool canAttack = false;
 
-    private Transform currentTarget;
+    public Transform currentTarget;
+
+
+    [Header("------------------- Stats -------------------")]
     private int currentLifeCount;
     private float currentmoveSpeed;
     private int currentDamage;
@@ -30,6 +37,8 @@ public abstract class EnemyStats : MonoBehaviour
     private void Awake()
     {
         rb = GetComponentInChildren<Rigidbody2D>();
+        boxCollider = GetComponent<BoxCollider2D>();
+        circleCollider = GetComponent<CircleCollider2D>();
     }
 
     public virtual void Start()
@@ -58,7 +67,7 @@ public abstract class EnemyStats : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, currentTarget.position, currentmoveSpeed * Time.deltaTime);
         FlipSprite();
 
-        if (Vector3.Distance(transform.position, currentTarget.position) < 0.1f)
+        if (Vector3.Distance(transform.position, currentTarget.position) < 1f)
         {
             if (currentTarget == waypoint_1)
             {
@@ -98,6 +107,14 @@ public abstract class EnemyStats : MonoBehaviour
         Debug.Log("Deadd");
         isDead = true;
         rb.bodyType = RigidbodyType2D.Static;
+        if (boxCollider != null)
+        {
+            boxCollider.enabled = false;
+        }
+        if (circleCollider != null)
+        {
+            circleCollider.enabled = false;
+        }
         rb.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY;
 
     }
@@ -116,8 +133,8 @@ public abstract class EnemyStats : MonoBehaviour
         }
 
 
-        RaycastHit2D attackHit = Physics2D.Raycast(transform.position, rayAttackingDirection, currentAttackDistance, playerLayer);
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, rayDetectingDirection, currentDetectionDistance, playerLayer);
+        RaycastHit2D attackHit = Physics2D.Raycast(rayDetectPlayerPosition.transform.position, rayAttackingDirection, currentAttackDistance, playerLayer);
+        RaycastHit2D hit = Physics2D.Raycast(rayDetectPlayerPosition.transform.position, rayDetectingDirection, currentDetectionDistance, playerLayer);
 
         if (player.GetComponent<PlayerMovement>().isKilled && player.GetComponent<PlayerMovement>().isDashing)
         {
@@ -163,13 +180,4 @@ public abstract class EnemyStats : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawLine(transform.position, (Vector2)transform.position + rayAttackingDirection * currentAttackDistance);
     }
-
-
-
-
-
-
-
-
-
 }

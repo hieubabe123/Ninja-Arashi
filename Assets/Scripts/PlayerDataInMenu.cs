@@ -17,9 +17,9 @@ public class PlayerDataInMenu : MonoBehaviour
             if (currentGem != value)
             {
                 currentGem = value;
-                if (GameManager.instance != null)
+                if (UIForAll.instance != null)
                 {
-                    GameManager.instance.currentGemDisplay.text = currentGem.ToString();
+                    UIForAll.instance.currentGemDisplay.text = currentGem.ToString();
                 }
             }
         }
@@ -33,9 +33,9 @@ public class PlayerDataInMenu : MonoBehaviour
             if (currentMoney != value)
             {
                 currentMoney = value;
-                if (GameManager.instance != null)
+                if (UIForAll.instance != null)
                 {
-                    GameManager.instance.currentMoneyDisplay.text = currentMoney.ToString();
+                    UIForAll.instance.currentMoneyDisplay.text = currentMoney.ToString();
                 }
             }
         }
@@ -49,8 +49,8 @@ public class PlayerDataInMenu : MonoBehaviour
 
     private void Start()
     {
-        GameManager.instance.currentMoneyDisplay.text = CurrentMoney.ToString();
-        GameManager.instance.currentGemDisplay.text = CurrentGem.ToString();
+        UIForAll.instance.currentMoneyDisplay.text = CurrentMoney.ToString();
+        UIForAll.instance.currentGemDisplay.text = CurrentGem.ToString();
     }
 
 }

@@ -9,9 +9,6 @@ TagManager:
   - Enemy
   - KillZone
   - Wood
-  - Fx
-  - FxTemporaire
-  - Soul
   - DashCircle
   - CamouflageCircle
   - HealShieldCircle
@@ -20,6 +17,10 @@ TagManager:
   - ShurikenDescription
   - HealShieldDescription
   - CamouflageDescription
+  - Trap
+  - TrapDoc
+  - Weapon
+  - Metal
   layers:
   - Default
   - TransparentFX
@@ -31,8 +32,8 @@ TagManager:
   - Enemy
   - Projectile
   - CheckTerrain
-  - 
-  - 
+  - Trap
+  - Wood
   - 
   - 
   - 

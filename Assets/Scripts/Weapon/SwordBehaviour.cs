@@ -16,9 +16,10 @@ public class SwordBehaviour : MonoBehaviour
         if (collision.gameObject.CompareTag("Player") && enemy.isDetecting && enemy.canAttack)
         {
             PlayerMovement player = FindObjectOfType<PlayerMovement>();
-            if (!player.isImmortal)
+            if (player != null && !player.isImmortal)
             {
                 player.Kill();
+                player.isDeadByEnemies = true;
             }
             else
             {

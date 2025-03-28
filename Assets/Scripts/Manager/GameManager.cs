@@ -17,12 +17,6 @@ public class GameManager : MonoBehaviour
 
     public bool isGameOver = false;
 
-    [Header("---------------Current Stat Displays---------------")]
-    public TMP_Text currentLifeCountDisplay;
-    public TMP_Text currentMoneyDisplay;
-    public TMP_Text currentGemDisplay;
-    public TMP_Text currentScrollPaperDisplay;
-
 
     private void Awake()
     {
@@ -42,6 +36,7 @@ public class GameManager : MonoBehaviour
         ShowCurrentState();
     }
 
+    #region State
     private void ShowCurrentState()
     {
         switch (currentState)
@@ -115,4 +110,6 @@ public class GameManager : MonoBehaviour
     {
         ChangeState(GameState.GameOver);
     }
+    #endregion
+
 }

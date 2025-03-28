@@ -5050,7 +5050,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &328842231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14093,6 +14093,54 @@ RectTransform:
   m_AnchoredPosition: {x: -40.5, y: 110}
   m_SizeDelta: {x: 70, y: 114.07001}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &880230249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 880230251}
+  - component: {fileID: 880230250}
+  m_Layer: 0
+  m_Name: UI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &880230250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880230249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f77c7c6031c44854e94d00ae17b9285c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentLifeCountDisplay: {fileID: 0}
+  currentMoneyDisplay: {fileID: 2021990607}
+  currentGemDisplay: {fileID: 1406852855}
+  currentScrollPaperDisplay: {fileID: 0}
+--- !u!4 &880230251
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880230249}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &881147586
 GameObject:
   m_ObjectHideFlags: 0
@@ -25349,7 +25397,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1606692901
 RectTransform:
   m_ObjectHideFlags: 0
@@ -29520,7 +29568,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ae964f9f5d20f7f4aa7925766199aeca, type: 2}
   currentDashData: {fileID: 0}
   currentThrowShurikenData: {fileID: 0}
-  currenthealAndShieldData: {fileID: 0}
+  currentHealAndShieldData: {fileID: 0}
   currentCamouflageData: {fileID: 0}
   currentDashLevel: 0
   currentThrowShurikenLevel: 0

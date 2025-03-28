@@ -13,12 +13,6 @@ public class SwordEnemyAnimation : MonoBehaviour
         enemy = GetComponent<SwordEnemy>();
         animator = GetComponentInChildren<Animator>();
     }
-
-    void Start()
-    {
-
-    }
-
     void Update()
     {
         IsDead();

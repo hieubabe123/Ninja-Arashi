@@ -5,6 +5,13 @@ using UnityEngine;
 public class Gem : PickUps
 {
     public int gemToEarn;
+    public int minGem = 1;
+    public int maxGem = 7;
+
+    void Start()
+    {
+        gemToEarn = Random.Range(minGem, maxGem);
+    }
 
     public override void Collect()
     {

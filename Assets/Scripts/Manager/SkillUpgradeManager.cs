@@ -9,15 +9,15 @@ public class SkillUpgradeManager : MonoBehaviour
     public static SkillUpgradeManager instance;
 
     [Header("---------------Skill Upgrade Data---------------")]
-    public List<DashSkillScriptableObject> dashSkillData = new List<DashSkillScriptableObject>();
-    public List<ThrowShurikenScriptableObject> throwShurikenData = new List<ThrowShurikenScriptableObject>();
-    public List<HealAndShieldScriptableObject> healAndShieldData = new List<HealAndShieldScriptableObject>();
-    public List<CamouflageScriptableObject> camouflageSkillData = new List<CamouflageScriptableObject>();
+    public List<DashSkillScriptableObject> dashSkillData;
+    public List<ThrowShurikenScriptableObject> throwShurikenData;
+    public List<HealAndShieldScriptableObject> healAndShieldData;
+    public List<CamouflageScriptableObject> camouflageSkillData;
 
     [Header("---------------Current Skill Data---------------")]
     public DashSkillScriptableObject currentDashData;
     public ThrowShurikenScriptableObject currentThrowShurikenData;
-    public HealAndShieldScriptableObject currenthealAndShieldData;
+    public HealAndShieldScriptableObject currentHealAndShieldData;
     public CamouflageScriptableObject currentCamouflageData;
 
     [Header("---------------Current Skills Level Integer---------------")]
@@ -61,13 +61,24 @@ public class SkillUpgradeManager : MonoBehaviour
     }
     void Start()
     {
-        LoadSkillData();
-        PlayerPrefs.DeleteAll();
-        PlayerPrefs.Save();
-        UpdateAllSkillCircles();
-        UpdateAllSkillDescriptions();
-        UpgradeCurrentSkillData();
+        DataManager.instance.LoadSkillData();
         UpdateSkillButtonColors();
+
+        dashSkillData = DataManager.instance.dashSkillData;
+        throwShurikenData = DataManager.instance.throwShurikenData;
+        healAndShieldData = DataManager.instance.healAndShieldData;
+        camouflageSkillData = DataManager.instance.camouflageSkillData;
+
+        currentDashData = DataManager.instance.currentDashData;
+        currentThrowShurikenData = DataManager.instance.currentThrowShurikenData;
+        currentHealAndShieldData = DataManager.instance.currentHealAndShieldData;
+        currentCamouflageData = DataManager.instance.currentCamouflageData;
+
+        currentDashLevel = DataManager.instance.currentDashLevel;
+        currentHealAndShieldLevel = DataManager.instance.currentHealAndShieldLevel;
+        currentThrowShurikenLevel = DataManager.instance.currentThrowShurikenLevel;
+        currentCamouflageLevel = DataManager.instance.currentCamouflageLevel;
+
     }
 
     public void OnClickUpgradeSkill(string skillType)
@@ -87,9 +98,10 @@ public class SkillUpgradeManager : MonoBehaviour
                 UpgradeSkill(ref currentCamouflageLevel, camouflageSkillData, camouflageCircles, camouflageButtonText);
                 break;
         }
-        UpgradeCurrentSkillData();
+        SyncDataToDataManager();
+        DataManager.instance.UpgradeCurrentSkillData();
         UpdateAllSkillDescriptions();
-        SaveSkillData();
+        DataManager.instance.SaveSkillData();
     }
 
     private void UpdateButtonColor<T>(TMP_Text buttonText, int currentLevel, List<T> skillDataList) where T : SkillUpgradeScriptableObject
@@ -127,8 +139,8 @@ public class SkillUpgradeManager : MonoBehaviour
 
             playerData.Money -= nextSkill.MoneyToUpgrade;
             playerData.Gem -= nextSkill.GemToUpgrade;
-            GameManager.instance.currentMoneyDisplay.text = playerData.Money.ToString();
-            GameManager.instance.currentGemDisplay.text = playerData.Gem.ToString();
+            UIForAll.instance.currentMoneyDisplay.text = playerData.Money.ToString();
+            UIForAll.instance.currentGemDisplay.text = playerData.Gem.ToString();
 
             currentLevel++;
             UpdateSkillCircle(skillCircles, currentLevel);
@@ -181,40 +193,18 @@ public class SkillUpgradeManager : MonoBehaviour
         UpdateSkillDescriptionObjects(camouflageDescription, currentCamouflageLevel);
     }
 
-    private void UpgradeCurrentSkillData()
+    public void SyncDataToDataManager()
     {
-        if (dashSkillData.Count > 0)
-        {
-            currentDashData = dashSkillData[Mathf.Clamp(currentDashLevel, 0, dashSkillData.Count - 1)];
-        }
-        if (throwShurikenData.Count > 0)
-        {
-            currentThrowShurikenData = throwShurikenData[Mathf.Clamp(currentThrowShurikenLevel, 0, throwShurikenData.Count - 1)];
-        }
-        if (healAndShieldData.Count > 0)
-        {
-            currenthealAndShieldData = healAndShieldData[Mathf.Clamp(currentHealAndShieldLevel, 0, healAndShieldData.Count - 1)];
-        }
-        if (camouflageSkillData.Count > 0)
-        {
-            currentCamouflageData = camouflageSkillData[Mathf.Clamp(currentCamouflageLevel, 0, camouflageSkillData.Count - 1)];
-        }
+        DataManager.instance.currentDashLevel = currentDashLevel;
+        DataManager.instance.currentThrowShurikenLevel = currentThrowShurikenLevel;
+        DataManager.instance.currentHealAndShieldLevel = currentHealAndShieldLevel;
+        DataManager.instance.currentCamouflageLevel = currentCamouflageLevel;
+
+        DataManager.instance.currentDashData = currentDashData;
+        DataManager.instance.currentThrowShurikenData = currentThrowShurikenData;
+        DataManager.instance.currentHealAndShieldData = currentHealAndShieldData;
+        DataManager.instance.currentCamouflageData = currentCamouflageData;
     }
 
-    private void SaveSkillData()
-    {
-        PlayerPrefs.SetInt("DashLevel", currentDashLevel);
-        PlayerPrefs.SetInt("ThrowShurikenLevel", currentThrowShurikenLevel);
-        PlayerPrefs.SetInt("HealShieldLevel", currentHealAndShieldLevel);
-        PlayerPrefs.SetInt("CamouflageLevel", currentCamouflageLevel);
-        PlayerPrefs.Save();
-    }
 
-    private void LoadSkillData()
-    {
-        currentDashLevel = PlayerPrefs.GetInt("DashLevel", 0);
-        currentThrowShurikenLevel = PlayerPrefs.GetInt("ThrowShurikenLevel", 0);
-        currentHealAndShieldLevel = PlayerPrefs.GetInt("HealShieldLevel", 0);
-        currentCamouflageLevel = PlayerPrefs.GetInt("CamouflageLevel", 0);
-    }
 }

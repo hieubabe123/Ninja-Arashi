@@ -1,37 +1,28 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ShurikenBehaviour : MonoBehaviour
 {
     [SerializeField] private WeaponScriptableObject weaponData;
     [SerializeField] private PlayerScriptableObject playerData;
-    [SerializeField] private EnemyStats enemy;
+    public SwordEnemy[] enemies;
     public float lastMoveDirX;
-
-    [SerializeField] private Rigidbody2D rb;
-    [SerializeField] private CircleCollider2D cc;
 
     private int currentDamage;
     private float currentSpeed;
     private float currentTimeDestroy;
 
     private float direction;
-
-    private void Awake()
-    {
-        cc = GetComponent<CircleCollider2D>();
-        rb = GetComponent<Rigidbody2D>();
-
-        enemy = FindObjectOfType<EnemyStats>();
-    }
-
-
     private void OnDisable()
     {
-        currentDamage = SkillUpgradeManager.instance.currentThrowShurikenData.DamageShuriken;
+        currentDamage = DataManager.instance.currentThrowShurikenData.DamageShuriken;
         currentSpeed = weaponData.Speed;
         currentTimeDestroy = weaponData.TimeToDestroy;
+        enemies = FindObjectsOfType<SwordEnemy>();
+
     }
 
     private void OnEnable()
@@ -57,18 +48,23 @@ public class ShurikenBehaviour : MonoBehaviour
         transform.Rotate(0, 0, 360 * 4 * Time.deltaTime);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
+        if (collision.CompareTag("Enemy"))
         {
-            enemy.TakeDamage(currentDamage);
+            if (collision.gameObject.TryGetComponent(out SwordEnemy enemy))
+            {
+                enemy.TakeDamage(currentDamage);
+            }
             gameObject.SetActive(false);
         }
-        else if (collision.gameObject.CompareTag("Wall") || collision.gameObject.CompareTag("Wood"))
+        else if (collision.gameObject.CompareTag("Wall") || collision.gameObject.CompareTag("Wood") || collision.gameObject.CompareTag("Ground"))
         {
             gameObject.SetActive(false);
         }
     }
+
+
 
 
 

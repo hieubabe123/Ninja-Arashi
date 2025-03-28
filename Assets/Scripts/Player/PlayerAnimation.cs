@@ -13,7 +13,7 @@ public class PlayerAnimation : MonoBehaviour
         player = GetComponent<PlayerMovement>();
     }
 
-    private void OnEnable()
+    private void OnDisable()
     {
         animator.Rebind();
         animator.Update(0f);

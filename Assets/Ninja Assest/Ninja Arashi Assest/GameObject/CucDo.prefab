@@ -4639,6 +4639,7 @@ GameObject:
   - component: {fileID: 50961470151399970}
   - component: {fileID: 61862618635884214}
   - component: {fileID: 95466430654885426}
+  - component: {fileID: 1072910909}
   m_Layer: 15
   m_Name: CucDo
   m_TagString: Soul
@@ -4670,7 +4671,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1599149176777601}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -4730,6 +4731,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1072910909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599149176777601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af049e0dc1d50654fa5d80c246f3dbc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBeenCollected: 0
+  healthToHealth: 1
 --- !u!1 &1603529713019637
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6990385285262312637}
   - component: {fileID: 7997281781492564364}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7004118703768694470}
   - component: {fileID: 8510496236514627156}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4147042263496389302}
   - component: {fileID: 1203298323658294892}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -262,7 +262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7625296615225176892}
   - component: {fileID: 5190057882959803319}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -346,7 +346,7 @@ GameObject:
   m_Component:
   - component: {fileID: 871761168699523628}
   - component: {fileID: 1570190275120160310}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -430,7 +430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6000868515628178107}
   - component: {fileID: 6486356557925326168}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -514,7 +514,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7273739402122896193}
   - component: {fileID: 2352150702492765184}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -598,7 +598,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4697546277649344793}
   - component: {fileID: 4472072142195391020}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -682,7 +682,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942921}
   - component: {fileID: 7112993931794943317}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -766,7 +766,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942969}
   - component: {fileID: 7112993931794943326}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -850,7 +850,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942923}
   - component: {fileID: 7112993931794943319}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam1 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -934,7 +934,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942924}
   - component: {fileID: 7112993931794943320}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1018,7 +1018,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942962}
   - component: {fileID: 7112993931794943322}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1102,7 +1102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942964}
   - component: {fileID: 7112993931794943323}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: leu2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1186,7 +1186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942965}
   - component: {fileID: 7112993931794943324}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gocnhon3 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1270,7 +1270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942966}
   - component: {fileID: 7112993931794943325}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: nha chay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1354,7 +1354,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942750}
   - component: {fileID: 7112993931794943649}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam1 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1438,7 +1438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942751}
   - component: {fileID: 7112993931794943313}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: leusau
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1522,7 +1522,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942720}
   - component: {fileID: 7112993931794943314}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gocnhon5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1606,7 +1606,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942721}
   - component: {fileID: 7112993931794943315}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: xebo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1690,7 +1690,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942827}
   - component: {fileID: 7112993931794943670}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1774,7 +1774,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942828}
   - component: {fileID: 7112993931794943671}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1858,7 +1858,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942831}
   - component: {fileID: 7112993931794943673}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1942,7 +1942,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942736}
   - component: {fileID: 7112993931794943674}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2026,7 +2026,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942737}
   - component: {fileID: 7112993931794943675}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2110,7 +2110,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942738}
   - component: {fileID: 7112993931794943676}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gocnhon5 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2194,7 +2194,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942739}
   - component: {fileID: 7112993931794943678}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: nha chay (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2278,7 +2278,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942746}
   - component: {fileID: 7112993931794943679}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gocnhon3 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2362,7 +2362,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942549}
   - component: {fileID: 7112993931794943339}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2446,7 +2446,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942885}
   - component: {fileID: 7112993931794943344}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gocnhon5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2530,7 +2530,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942886}
   - component: {fileID: 7112993931794943345}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2614,7 +2614,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942887}
   - component: {fileID: 7112993931794943346}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gocnhon2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2698,7 +2698,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942888}
   - component: {fileID: 7112993931794943347}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gocnhonxac
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2782,7 +2782,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942889}
   - component: {fileID: 7112993931794943348}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2865,7 +2865,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942891}
-  m_Layer: 10
+  m_Layer: 3
   m_Name: Background_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2911,7 +2911,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942892}
   - component: {fileID: 7112993931794943349}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2995,7 +2995,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942895}
   - component: {fileID: 7112993931794943351}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3079,7 +3079,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942544}
   - component: {fileID: 7112993931794943352}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mayxanh (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3163,7 +3163,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942545}
   - component: {fileID: 7112993931794943353}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3247,7 +3247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942547}
   - component: {fileID: 7112993931794943355}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gocnhon5 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3331,7 +3331,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942883}
   - component: {fileID: 7112993931794943311}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3414,7 +3414,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942884}
-  m_Layer: 10
+  m_Layer: 3
   m_Name: Background_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3454,7 +3454,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942786}
   - component: {fileID: 7112993931794943638}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: dasau (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3538,7 +3538,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942788}
   - component: {fileID: 7112993931794943640}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3622,7 +3622,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942789}
   - component: {fileID: 7112993931794943641}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3706,7 +3706,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942790}
   - component: {fileID: 7112993931794943642}
-  m_Layer: 10
+  m_Layer: 3
   m_Name: BG_Moon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3790,7 +3790,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942791}
   - component: {fileID: 7112993931794943643}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam2 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3874,7 +3874,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942792}
   - component: {fileID: 7112993931794943644}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3958,7 +3958,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942794}
   - component: {fileID: 7112993931794943646}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4042,7 +4042,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942846}
   - component: {fileID: 7112993931794943624}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gocnhon3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4126,7 +4126,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942847}
   - component: {fileID: 7112993931794943625}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4210,7 +4210,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942819}
   - component: {fileID: 7112993931794943630}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: leu1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4294,7 +4294,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942821}
   - component: {fileID: 7112993931794943631}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4378,7 +4378,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942823}
   - component: {fileID: 7112993931794943666}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4462,7 +4462,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942824}
   - component: {fileID: 7112993931794943667}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4546,7 +4546,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942825}
   - component: {fileID: 7112993931794943668}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gocnhon5 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4630,7 +4630,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942826}
   - component: {fileID: 7112993931794943669}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4714,7 +4714,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942797}
   - component: {fileID: 7112993931794943647}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4797,7 +4797,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942798}
-  m_Layer: 10
+  m_Layer: 3
   m_Name: Background_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4833,7 +4833,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942799}
   - component: {fileID: 7112993931794943618}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: truc2 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4917,7 +4917,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942833}
   - component: {fileID: 7112993931794943619}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam2 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5001,7 +5001,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942842}
   - component: {fileID: 7112993931794943622}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mayxanh (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5085,7 +5085,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941439}
   - component: {fileID: 7112993931794943706}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5169,7 +5169,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941408}
   - component: {fileID: 7112993931794943707}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gocnhon5 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5253,7 +5253,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941410}
   - component: {fileID: 7112993931794943708}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: truc2 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5337,7 +5337,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941411}
   - component: {fileID: 7112993931794943709}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5421,7 +5421,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941412}
   - component: {fileID: 7112993931794943636}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5505,7 +5505,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941429}
   - component: {fileID: 7112993931794943700}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_phai (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5588,7 +5588,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941397}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: body01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5620,7 +5620,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941399}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vai_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5653,7 +5653,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941217}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: chan_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5685,7 +5685,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941227}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: body01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5718,7 +5718,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941404}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: chan_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5750,7 +5750,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941218}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5783,7 +5783,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941230}
   - component: {fileID: 7112993931794943533}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: body01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5867,7 +5867,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941398}
   - component: {fileID: 7112993931794943698}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: da3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5950,7 +5950,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941391}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: dui_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5983,7 +5983,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941433}
   - component: {fileID: 7112993931794943527}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vai_phai (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6066,7 +6066,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941220}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vai_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6099,7 +6099,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941401}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6132,7 +6132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941436}
   - component: {fileID: 7112993931794943703}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gocnhon5 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6216,7 +6216,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941438}
   - component: {fileID: 7112993931794943705}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gocnhon5 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6300,7 +6300,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941631}
   - component: {fileID: 7112993931794943495}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6384,7 +6384,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941600}
   - component: {fileID: 7112993931794943496}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mayxanh (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6468,7 +6468,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941601}
   - component: {fileID: 7112993931794943498}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6552,7 +6552,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941602}
   - component: {fileID: 7112993931794943499}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gieng
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6636,7 +6636,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941603}
   - component: {fileID: 7112993931794943502}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6720,7 +6720,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941624}
   - component: {fileID: 7112993931794943489}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam2 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6804,7 +6804,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941628}
   - component: {fileID: 7112993931794943492}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam2 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6888,7 +6888,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941629}
   - component: {fileID: 7112993931794943493}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6972,7 +6972,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941630}
   - component: {fileID: 7112993931794943494}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7056,7 +7056,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941665}
   - component: {fileID: 7112993931794943586}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: co1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7140,7 +7140,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941671}
   - component: {fileID: 7112993931794943589}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gocnhon5 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7224,7 +7224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941672}
   - component: {fileID: 7112993931794943590}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mayxanh (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7308,7 +7308,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941673}
   - component: {fileID: 7112993931794943592}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: biadansau
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7392,7 +7392,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941674}
   - component: {fileID: 7112993931794943593}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gocnhon3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7476,7 +7476,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941676}
   - component: {fileID: 7112993931794943594}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7560,7 +7560,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941677}
   - component: {fileID: 7112993931794943595}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7644,7 +7644,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941678}
   - component: {fileID: 7112993931794943596}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gocnhon5 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7728,7 +7728,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941679}
   - component: {fileID: 7112993931794943598}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7812,7 +7812,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941684}
   - component: {fileID: 7112993931794943608}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mayxanh (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7896,7 +7896,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941688}
   - component: {fileID: 7112993931794943610}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7980,7 +7980,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941689}
   - component: {fileID: 7112993931794943611}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8064,7 +8064,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941690}
   - component: {fileID: 7112993931794943612}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: truc2 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8148,7 +8148,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941691}
   - component: {fileID: 7112993931794943613}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8232,7 +8232,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941692}
   - component: {fileID: 7112993931794943614}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam1 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8316,7 +8316,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941693}
   - component: {fileID: 7112993931794943615}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8400,7 +8400,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941695}
   - component: {fileID: 7112993931794943585}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: leu2 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8484,7 +8484,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941568}
   - component: {fileID: 7112993931794943514}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: truc2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8568,7 +8568,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941569}
   - component: {fileID: 7112993931794943515}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam2 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8652,7 +8652,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941570}
   - component: {fileID: 7112993931794943517}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: truc2 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8736,7 +8736,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941571}
   - component: {fileID: 7112993931794943518}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8820,7 +8820,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941572}
   - component: {fileID: 7112993931794943519}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8904,7 +8904,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941584}
   - component: {fileID: 7112993931794943599}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8988,7 +8988,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941586}
   - component: {fileID: 7112993931794943504}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9072,7 +9072,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941587}
   - component: {fileID: 7112993931794943505}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gocnhon5 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9156,7 +9156,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941588}
   - component: {fileID: 7112993931794943506}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam2 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9240,7 +9240,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941590}
   - component: {fileID: 7112993931794943507}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9324,7 +9324,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941591}
   - component: {fileID: 7112993931794943509}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: truc2 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9408,7 +9408,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941592}
   - component: {fileID: 7112993931794943510}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9492,7 +9492,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941594}
   - component: {fileID: 7112993931794943511}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam2 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9576,7 +9576,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941595}
   - component: {fileID: 7112993931794943512}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam2 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9659,7 +9659,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941597}
-  m_Layer: 10
+  m_Layer: 3
   m_Name: Background_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9706,7 +9706,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941598}
   - component: {fileID: 7112993931794943513}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gocnhon5 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9789,7 +9789,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941599}
-  m_Layer: 10
+  m_Layer: 3
   m_Name: Background_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9854,7 +9854,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941229}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vai_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9887,7 +9887,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941406}
   - component: {fileID: 7112993931794943525}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: dui_phai03 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9970,7 +9970,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941225}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10009,7 +10009,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941434}
   - component: {fileID: 7112993931794943535}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vaitrai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10092,7 +10092,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941380}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10125,7 +10125,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941393}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: kiem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10158,7 +10158,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941388}
   - component: {fileID: 7112993931794943696}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: chan_trai02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10242,7 +10242,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941231}
   - component: {fileID: 7112993931794943697}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: dui_trai (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10325,7 +10325,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941385}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: head01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10358,7 +10358,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941395}
   - component: {fileID: 7112993931794943702}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vaiphai2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10441,7 +10441,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941223}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: dui_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10473,7 +10473,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941431}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: dui_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10506,7 +10506,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941381}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10538,7 +10538,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941377}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vai_trai02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10571,7 +10571,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941384}
   - component: {fileID: 7112993931794943528}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_phai02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10655,7 +10655,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941236}
   - component: {fileID: 7112993931794943522}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam2 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10739,7 +10739,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941237}
   - component: {fileID: 7112993931794943523}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mayxanh (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10822,7 +10822,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941386}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: kiem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10855,7 +10855,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941396}
   - component: {fileID: 7112993931794943530}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vaitrai2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10938,7 +10938,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941387}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vai_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10971,7 +10971,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941425}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11003,7 +11003,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941424}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: chan_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11035,7 +11035,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941427}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_phai02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11067,7 +11067,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941435}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: kiem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11100,7 +11100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941400}
   - component: {fileID: 7112993931794943526}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_trai (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11184,7 +11184,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941402}
   - component: {fileID: 7112993931794943699}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: chan_phai2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11267,7 +11267,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941432}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_trai02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11299,7 +11299,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941228}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: chan_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11331,7 +11331,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941379}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mong
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11364,7 +11364,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941383}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: dui_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11396,7 +11396,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941376}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vai_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11429,7 +11429,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941224}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: dui_phai03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11461,7 +11461,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941405}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11494,7 +11494,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941392}
   - component: {fileID: 7112993931794943531}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: kiem (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11578,7 +11578,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941382}
   - component: {fileID: 7112993931794943532}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_trai02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11662,7 +11662,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941216}
   - component: {fileID: 7112993931794942115}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: thangdaomo map1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11717,7 +11717,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941394}
   - component: {fileID: 7112993931794943529}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: body03 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11800,7 +11800,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941378}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11833,7 +11833,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941221}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: dui_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11866,7 +11866,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941226}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: body03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11899,7 +11899,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941222}
   - component: {fileID: 7112993931794943534}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mong02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11982,7 +11982,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941390}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vai_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12014,7 +12014,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941407}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: head01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12046,7 +12046,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941426}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mong02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12078,7 +12078,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941403}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: chan_trai02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12111,7 +12111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941428}
   - component: {fileID: 7112993931794943701}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: head01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12194,7 +12194,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941219}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vai_phai02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12226,7 +12226,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941430}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12258,7 +12258,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794941389}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mong01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12292,7 +12292,7 @@ GameObject:
   - component: {fileID: 7112993931794941209}
   - component: {fileID: 7112993931794943503}
   - component: {fileID: 7112993931794942101}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gocnhon1
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -12399,7 +12399,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794941210}
   - component: {fileID: 7112993931794943537}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12483,7 +12483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942419}
   - component: {fileID: 7112993931794943463}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam2 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12567,7 +12567,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942420}
   - component: {fileID: 7112993931794943378}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12651,7 +12651,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942240}
   - component: {fileID: 7112993931794943483}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12735,7 +12735,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942241}
   - component: {fileID: 7112993931794943484}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam1 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12818,7 +12818,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942242}
-  m_Layer: 10
+  m_Layer: 3
   m_Name: dungim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12947,7 +12947,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942243}
   - component: {fileID: 7112993931794943485}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13031,7 +13031,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942245}
   - component: {fileID: 7112993931794943456}
-  m_Layer: 10
+  m_Layer: 3
   m_Name: BG_Moon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13115,7 +13115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942248}
   - component: {fileID: 7112993931794943457}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13199,7 +13199,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942251}
   - component: {fileID: 7112993931794943461}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: leu2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13283,7 +13283,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942414}
   - component: {fileID: 7112993931794943385}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: truc2 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13367,7 +13367,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942415}
   - component: {fileID: 7112993931794943386}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13451,7 +13451,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942448}
   - component: {fileID: 7112993931794943387}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: co2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13535,7 +13535,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942449}
   - component: {fileID: 7112993931794943388}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mayxanh (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13619,7 +13619,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942453}
   - component: {fileID: 7112993931794943389}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: dasau
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13703,7 +13703,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942454}
   - component: {fileID: 7112993931794943390}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: xebo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13787,7 +13787,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942456}
   - component: {fileID: 7112993931794943360}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13871,7 +13871,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942457}
   - component: {fileID: 7112993931794943361}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13955,7 +13955,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942459}
   - component: {fileID: 7112993931794943362}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14039,7 +14039,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942460}
   - component: {fileID: 7112993931794943363}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mayxanh (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14124,7 +14124,7 @@ GameObject:
   - component: {fileID: 7112993931794942461}
   - component: {fileID: 7112993931794943364}
   - component: {fileID: 7112993931794942059}
-  m_Layer: 17
+  m_Layer: 11
   m_Name: hinh nhan
   m_TagString: Wood
   m_Icon: {fileID: 0}
@@ -14260,7 +14260,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942406}
   - component: {fileID: 7112993931794943382}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gocnhon2 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14343,7 +14343,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942409}
-  m_Layer: 10
+  m_Layer: 3
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14359,8 +14359,8 @@ Transform:
   m_GameObject: {fileID: 7112993931794941498}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 7112993931794942966}
   - {fileID: 7112993931794942739}
@@ -14384,7 +14384,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942258}
   - component: {fileID: 7112993931794943474}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam2 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14468,7 +14468,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942259}
   - component: {fileID: 7112993931794943475}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14552,7 +14552,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942260}
   - component: {fileID: 7112993931794943476}
-  m_Layer: 10
+  m_Layer: 3
   m_Name: BG_Moon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14636,7 +14636,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942261}
   - component: {fileID: 7112993931794943477}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: truc2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14720,7 +14720,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942262}
   - component: {fileID: 7112993931794943478}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14804,7 +14804,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942263}
   - component: {fileID: 7112993931794943479}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14888,7 +14888,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942266}
   - component: {fileID: 7112993931794943481}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mayxanh (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14972,7 +14972,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942269}
   - component: {fileID: 7112993931794943482}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15056,7 +15056,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942352}
   - component: {fileID: 7112993931794943374}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15140,7 +15140,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942353}
   - component: {fileID: 7112993931794943375}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gocnhon2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15224,7 +15224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942354}
   - component: {fileID: 7112993931794943408}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15308,7 +15308,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942355}
   - component: {fileID: 7112993931794943409}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mayxanh (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15393,7 +15393,7 @@ GameObject:
   - component: {fileID: 7112993931794942356}
   - component: {fileID: 7112993931794943410}
   - component: {fileID: 7112993931794942060}
-  m_Layer: 17
+  m_Layer: 11
   m_Name: hinh nhan (1)
   m_TagString: Wood
   m_Icon: {fileID: 0}
@@ -15529,7 +15529,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942357}
   - component: {fileID: 7112993931794943411}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15613,7 +15613,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942358}
   - component: {fileID: 7112993931794943412}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gocnhon3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15697,7 +15697,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942359}
   - component: {fileID: 7112993931794943413}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15781,7 +15781,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942360}
   - component: {fileID: 7112993931794943414}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mayxanh (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15865,7 +15865,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942362}
   - component: {fileID: 7112993931794943415}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15949,7 +15949,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942364}
   - component: {fileID: 7112993931794943417}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16033,7 +16033,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942440}
   - component: {fileID: 7112993931794943370}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16117,7 +16117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942366}
   - component: {fileID: 7112993931794943419}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gocnhon2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16200,7 +16200,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942679}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: chan_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16232,7 +16232,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942656}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16265,7 +16265,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942668}
   - component: {fileID: 7112993931794943242}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: body01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16349,7 +16349,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942673}
   - component: {fileID: 7112993931794943235}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: da3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16432,7 +16432,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942524}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: dui_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16465,7 +16465,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942502}
   - component: {fileID: 7112993931794943260}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vai_phai (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16548,7 +16548,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942658}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vai_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16582,7 +16582,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942510}
   - component: {fileID: 7112993931794943261}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_phai02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16666,7 +16666,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942670}
   - component: {fileID: 7112993931794943240}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: kiem (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16750,7 +16750,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942508}
   - component: {fileID: 7112993931794943241}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_trai02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16834,7 +16834,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942686}
   - component: {fileID: 7112993931794943813}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: thangdaomo map1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16889,7 +16889,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942704}
   - component: {fileID: 7112993931794943262}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: body03 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16972,7 +16972,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942685}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17005,7 +17005,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942659}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: dui_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17038,7 +17038,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942664}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: body03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17071,7 +17071,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942660}
   - component: {fileID: 7112993931794943243}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mong02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17154,7 +17154,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942676}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17186,7 +17186,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942504}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: kiem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17219,7 +17219,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942675}
   - component: {fileID: 7112993931794943259}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_trai (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17303,7 +17303,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942677}
   - component: {fileID: 7112993931794943236}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: chan_phai2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17386,7 +17386,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942501}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_trai02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17418,7 +17418,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942666}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: chan_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17450,7 +17450,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942505}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mong
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17483,7 +17483,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942509}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: dui_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17515,7 +17515,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942683}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vai_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17548,7 +17548,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942662}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: dui_phai03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17580,7 +17580,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942680}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17613,7 +17613,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942498}
   - component: {fileID: 7112993931794943237}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_phai (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17696,7 +17696,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942672}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: body01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17728,7 +17728,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942674}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vai_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17761,7 +17761,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942687}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: chan_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17793,7 +17793,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942665}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: body01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17827,7 +17827,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942709}
   - component: {fileID: 7112993931794943245}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17911,7 +17911,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942710}
   - component: {fileID: 7112993931794943246}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17995,7 +17995,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942711}
   - component: {fileID: 7112993931794943247}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18079,7 +18079,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942714}
   - component: {fileID: 7112993931794943280}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam2 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18163,7 +18163,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942715}
   - component: {fileID: 7112993931794943281}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mayxanh (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18247,7 +18247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942690}
   - component: {fileID: 7112993931794943282}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mayxanh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18330,7 +18330,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942523}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vai_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18362,7 +18362,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942682}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: head01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18394,7 +18394,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942527}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mong02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18426,7 +18426,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942678}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: chan_trai02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18459,7 +18459,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942497}
   - component: {fileID: 7112993931794943238}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: head01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18542,7 +18542,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942657}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vai_phai02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18574,7 +18574,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942499}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18606,7 +18606,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942522}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mong01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18638,7 +18638,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942519}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: kiem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18671,7 +18671,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942511}
   - component: {fileID: 7112993931794943263}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vaitrai2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18754,7 +18754,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942520}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vai_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18787,7 +18787,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942526}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18819,7 +18819,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942525}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: chan_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18851,7 +18851,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942496}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_phai02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18884,7 +18884,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942516}
   - component: {fileID: 7112993931794943256}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18967,7 +18967,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942667}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vai_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19000,7 +19000,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942681}
   - component: {fileID: 7112993931794943258}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: dui_phai03 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19083,7 +19083,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942663}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19122,7 +19122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942503}
   - component: {fileID: 7112993931794943232}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vaitrai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19205,7 +19205,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942506}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19238,7 +19238,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942671}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: kiem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19271,7 +19271,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942521}
   - component: {fileID: 7112993931794943233}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: chan_trai02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19355,7 +19355,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942669}
   - component: {fileID: 7112993931794943234}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: dui_trai (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19438,7 +19438,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942518}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: head01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19471,7 +19471,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942705}
   - component: {fileID: 7112993931794943239}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vaiphai2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19554,7 +19554,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942661}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: dui_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19586,7 +19586,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942500}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: dui_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19619,7 +19619,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942507}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19651,7 +19651,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942684}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vai_trai02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19684,7 +19684,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942471}
   - component: {fileID: 7112993931794943343}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gocnhon5 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19768,7 +19768,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942472}
   - component: {fileID: 7112993931794943248}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mayxanh (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19852,7 +19852,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942473}
   - component: {fileID: 7112993931794943249}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19936,7 +19936,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942474}
   - component: {fileID: 7112993931794943250}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20020,7 +20020,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942477}
   - component: {fileID: 7112993931794943253}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20104,7 +20104,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942514}
   - component: {fileID: 7112993931794943254}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20188,7 +20188,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942515}
   - component: {fileID: 7112993931794943255}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: thancay2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20272,7 +20272,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942592}
   - component: {fileID: 7112993931794943441}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: dui_phai03 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20356,7 +20356,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942290}
   - component: {fileID: 7112993931794943295}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20440,7 +20440,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942291}
   - component: {fileID: 7112993931794943442}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: co2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20524,7 +20524,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942293}
   - component: {fileID: 7112993931794943443}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam1 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20608,7 +20608,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942294}
   - component: {fileID: 7112993931794943444}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: biadansau (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20692,7 +20692,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942296}
   - component: {fileID: 7112993931794943446}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: leu2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20776,7 +20776,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942297}
   - component: {fileID: 7112993931794943447}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20860,7 +20860,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942298}
   - component: {fileID: 7112993931794943448}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: truc2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20944,7 +20944,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942299}
   - component: {fileID: 7112993931794943449}
-  m_Layer: 10
+  m_Layer: 3
   m_Name: bgxanh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21028,7 +21028,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942300}
   - component: {fileID: 7112993931794943450}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21112,7 +21112,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942289}
   - component: {fileID: 7112993931794943278}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_phai02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21196,7 +21196,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942646}
   - component: {fileID: 7112993931794943814}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: thangdaomo map1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21250,7 +21250,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942620}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21282,7 +21282,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942636}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21314,7 +21314,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942607}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: dui_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21346,7 +21346,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942649}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: dui_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21379,7 +21379,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942614}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vai_trai02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21412,7 +21412,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942599}
   - component: {fileID: 7112993931794943271}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: dui_trai (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21495,7 +21495,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942634}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: head01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21528,7 +21528,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942630}
   - component: {fileID: 7112993931794943270}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: chan_trai02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21612,7 +21612,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942602}
   - component: {fileID: 7112993931794943264}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vaiphai2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21695,7 +21695,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942606}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21733,7 +21733,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942601}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: kiem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21766,7 +21766,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942654}
   - component: {fileID: 7112993931794943269}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vaitrai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21849,7 +21849,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942638}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21882,7 +21882,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942597}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vai_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21915,7 +21915,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942273}
   - component: {fileID: 7112993931794943451}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21999,7 +21999,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942276}
   - component: {fileID: 7112993931794943436}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam1 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22083,7 +22083,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942278}
   - component: {fileID: 7112993931794943438}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: leutruc
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22167,7 +22167,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942281}
   - component: {fileID: 7112993931794943439}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: co2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22251,7 +22251,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942610}
   - component: {fileID: 7112993931794943294}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22334,7 +22334,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942628}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: dui_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22367,7 +22367,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942595}
   - component: {fileID: 7112993931794943267}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: da3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22451,7 +22451,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942598}
   - component: {fileID: 7112993931794943273}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: body01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22534,7 +22534,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942648}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22566,7 +22566,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942642}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vai_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22600,7 +22600,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942655}
   - component: {fileID: 7112993931794943279}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vai_phai (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22683,7 +22683,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942645}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: chan_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22715,7 +22715,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942641}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: body01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22748,7 +22748,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942596}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: body01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22780,7 +22780,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942594}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vai_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22813,7 +22813,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942617}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: chan_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22846,7 +22846,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942691}
   - component: {fileID: 7112993931794943284}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22930,7 +22930,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942695}
   - component: {fileID: 7112993931794943286}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23014,7 +23014,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942696}
   - component: {fileID: 7112993931794943287}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23098,7 +23098,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942698}
   - component: {fileID: 7112993931794943288}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23182,7 +23182,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942699}
   - component: {fileID: 7112993931794943289}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam2 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23265,7 +23265,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942701}
-  m_Layer: 10
+  m_Layer: 3
   m_Name: Background_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23314,7 +23314,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942702}
   - component: {fileID: 7112993931794943293}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: codai2 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23397,7 +23397,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942633}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: chan_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23429,7 +23429,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942631}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vai_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23462,7 +23462,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942627}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_phai02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23494,7 +23494,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942632}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mong01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23526,7 +23526,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942635}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: kiem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23559,7 +23559,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942593}
   - component: {fileID: 7112993931794943277}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vaitrai2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23642,7 +23642,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942622}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: head01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23674,7 +23674,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942629}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vai_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23706,7 +23706,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942626}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mong02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23739,7 +23739,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942643}
   - component: {fileID: 7112993931794943272}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mong02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23822,7 +23822,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942640}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: body03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23855,7 +23855,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942603}
   - component: {fileID: 7112993931794943276}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: body03 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23938,7 +23938,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942615}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23971,7 +23971,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942644}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: dui_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24005,7 +24005,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942604}
   - component: {fileID: 7112993931794943275}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: kiem (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24089,7 +24089,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942639}
   - component: {fileID: 7112993931794943274}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_trai02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24172,7 +24172,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942605}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: dui_phai03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24204,7 +24204,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942623}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24237,7 +24237,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942652}
   - component: {fileID: 7112993931794943265}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_phai (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24320,7 +24320,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942650}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_trai02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24352,7 +24352,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942624}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: kiem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24385,7 +24385,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942618}
   - component: {fileID: 7112993931794943440}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_trai (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24469,7 +24469,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942621}
   - component: {fileID: 7112993931794943268}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: chan_phai2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24552,7 +24552,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942616}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vai_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24585,7 +24585,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942600}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: chan_phai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24617,7 +24617,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942637}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mong
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24650,7 +24650,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942288}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: dui_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24682,7 +24682,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942653}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tay_trai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24715,7 +24715,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112993931794942651}
   - component: {fileID: 7112993931794943266}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: head01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24798,7 +24798,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942647}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: vai_phai02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24830,7 +24830,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942619}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: chan_trai02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24862,7 +24862,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7112993931794942625}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24895,7 +24895,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5176697466986669787}
   - component: {fileID: 6859761003824301041}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24979,7 +24979,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3616684773600842207}
   - component: {fileID: 354716823722753145}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trucxanhdam3 (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

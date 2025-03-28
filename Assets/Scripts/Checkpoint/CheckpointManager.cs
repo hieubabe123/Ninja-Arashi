@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class CheckpointManager : MonoBehaviour
 {
     public static CheckpointManager instance;
     public Checkpoint currentCheckpoint;
+    public ParticleSystem revivalPlayerEffect;
     public List<Checkpoint> checkpoint = new List<Checkpoint>();
     void Start()
     {
@@ -38,6 +40,10 @@ public class CheckpointManager : MonoBehaviour
         player.transform.position = CheckpointPosition();
         player.SetActive(true);
         deadPlayer.SetActive(false);
+
+        Vector3 revivalEffectTransform = new Vector3(player.transform.position.x, player.transform.position.y - 2f, player.transform.position.z);
+
+        Instantiate(revivalPlayerEffect, revivalEffectTransform, Quaternion.identity);
     }
 
 
