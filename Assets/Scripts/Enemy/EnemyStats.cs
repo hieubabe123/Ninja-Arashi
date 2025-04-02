@@ -14,7 +14,7 @@ public abstract class EnemyStats : MonoBehaviour
     [SerializeField] private Transform waypoint_2;
     [SerializeField] private Transform rayDetectPlayerPosition;
     private Vector2 rayDetectingDirection;
-    private Vector2 rayAttackingDirection;
+    private Vector2 rayAttackingAheadDirection;
 
 
     [Header("-------------------Detection Settings-------------------")]
@@ -28,7 +28,6 @@ public abstract class EnemyStats : MonoBehaviour
     [Header("------------------- Stats -------------------")]
     private int currentLifeCount;
     private float currentmoveSpeed;
-    private int currentDamage;
     private int currentDetectionDistance;
     private int currentAttackDistance;
 
@@ -45,7 +44,6 @@ public abstract class EnemyStats : MonoBehaviour
     {
         currentLifeCount = enemyData.LifeCount;
         currentmoveSpeed = enemyData.MoveSpeedNormal;
-        currentDamage = enemyData.Damage;
         currentDetectionDistance = enemyData.DetectionDistance;
         currentAttackDistance = enemyData.AttackDistance;
 
@@ -124,17 +122,17 @@ public abstract class EnemyStats : MonoBehaviour
         if (this.transform.localScale.x == 1)
         {
             rayDetectingDirection = Vector2.right;
-            rayAttackingDirection = Vector2.right;
+            rayAttackingAheadDirection = Vector2.right;
         }
         else
         {
             rayDetectingDirection = Vector2.left;
-            rayAttackingDirection = Vector2.left;
+            rayAttackingAheadDirection = Vector2.left;
         }
 
 
-        RaycastHit2D attackHit = Physics2D.Raycast(rayDetectPlayerPosition.transform.position, rayAttackingDirection, currentAttackDistance, playerLayer);
-        RaycastHit2D hit = Physics2D.Raycast(rayDetectPlayerPosition.transform.position, rayDetectingDirection, currentDetectionDistance, playerLayer);
+        RaycastHit2D attackHitAhead = Physics2D.Raycast(rayDetectPlayerPosition.transform.position, rayAttackingAheadDirection, currentAttackDistance, playerLayer);
+        RaycastHit2D detectionHit = Physics2D.Raycast(rayDetectPlayerPosition.transform.position, rayDetectingDirection, currentDetectionDistance, playerLayer);
 
         if (player.GetComponent<PlayerMovement>().isKilled && player.GetComponent<PlayerMovement>().isDashing)
         {
@@ -142,8 +140,7 @@ public abstract class EnemyStats : MonoBehaviour
             return;
         }
 
-        //Need to improve
-        if (attackHit.collider != null)
+        if (attackHitAhead.collider != null)
         {
             currentmoveSpeed = 0;
             canAttack = true;
@@ -151,7 +148,7 @@ public abstract class EnemyStats : MonoBehaviour
         else
         {
             canAttack = false;
-            if (hit.collider != null)
+            if (detectionHit.collider != null)
             {
                 currentmoveSpeed = enemyData.MoveSpeedDetected;
                 isDetecting = true;
@@ -178,6 +175,6 @@ public abstract class EnemyStats : MonoBehaviour
         Gizmos.DrawLine(transform.position, (Vector2)transform.position + rayDetectingDirection * currentDetectionDistance);
 
         Gizmos.color = Color.red;
-        Gizmos.DrawLine(transform.position, (Vector2)transform.position + rayAttackingDirection * currentAttackDistance);
+        Gizmos.DrawLine(transform.position, (Vector2)transform.position + rayAttackingAheadDirection * currentAttackDistance);
     }
 }

@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
+
+
 
 public class GameManager : MonoBehaviour
 {
@@ -9,21 +13,20 @@ public class GameManager : MonoBehaviour
 
     public enum GameState
     {
-        GamePlay, Paused, GameOver
+        GamePlay, Paused, GameOver, GameWin
     }
 
     public GameState currentState;
     public GameState previousState;
 
     public bool isGameOver = false;
-
+    public bool isGameWin = false;
 
     private void Awake()
     {
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
         }
         else
         {
@@ -36,7 +39,6 @@ public class GameManager : MonoBehaviour
         ShowCurrentState();
     }
 
-    #region State
     private void ShowCurrentState()
     {
         switch (currentState)
@@ -48,7 +50,13 @@ public class GameManager : MonoBehaviour
             case GameState.GameOver:
                 if (!isGameOver)
                 {
-                    EndGame();
+                    EndGameOver();
+                }
+                break;
+            case GameState.GameWin:
+                if (!isGameWin)
+                {
+                    EndGameWin();
                 }
                 break;
             default:
@@ -69,7 +77,6 @@ public class GameManager : MonoBehaviour
             previousState = currentState;
             currentState = GameState.Paused;
             Time.timeScale = 0f;
-            //pauseScreen.SetActive(true);
         }
     }
 
@@ -80,14 +87,23 @@ public class GameManager : MonoBehaviour
             currentState = previousState;
             currentState = GameState.GamePlay;
             Time.timeScale = 1.0f;
-            //pauseScreen.SetActive(false);
         }
     }
 
-    private void EndGame()
+    private void EndGameOver()
     {
         isGameOver = true;
         Time.timeScale = 0f;
+        UIForAll.instance.EnableGameOverUI();
+        UIForAll.instance.DisableObject();
+    }
+
+    private void EndGameWin()
+    {
+        isGameWin = true;
+        SaveAndLoadManager.SaveGame();
+        UIForAll.instance.DisableObject();
+        FindObjectOfType<SceneController>().SceneChange("ChooseMap");
     }
 
     public void OnClickPauseButton()
@@ -110,6 +126,16 @@ public class GameManager : MonoBehaviour
     {
         ChangeState(GameState.GameOver);
     }
-    #endregion
+
+    public void GameWin()
+    {
+        StartCoroutine(WaitToEndGameWin());
+    }
+
+    private IEnumerator WaitToEndGameWin()
+    {
+        yield return new WaitForSeconds(2);
+        ChangeState(GameState.GameWin);
+    }
 
 }

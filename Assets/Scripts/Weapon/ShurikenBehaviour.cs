@@ -6,9 +6,15 @@ using UnityEngine;
 
 public class ShurikenBehaviour : MonoBehaviour
 {
+    [Header("------------------- Data -------------------")]
     [SerializeField] private WeaponScriptableObject weaponData;
     [SerializeField] private PlayerScriptableObject playerData;
-    public SwordEnemy[] enemies;
+
+    [Header("------------------- Effect -------------------")]
+    [SerializeField] private ParticleSystem hitGroundAndWallEffect;
+    [SerializeField] private ParticleSystem hitEnemyEffect;
+    [SerializeField] private ParticleSystem hitTrapEffect;
+
     public float lastMoveDirX;
 
     private int currentDamage;
@@ -21,7 +27,6 @@ public class ShurikenBehaviour : MonoBehaviour
         currentDamage = DataManager.instance.currentThrowShurikenData.DamageShuriken;
         currentSpeed = weaponData.Speed;
         currentTimeDestroy = weaponData.TimeToDestroy;
-        enemies = FindObjectsOfType<SwordEnemy>();
 
     }
 
@@ -48,18 +53,25 @@ public class ShurikenBehaviour : MonoBehaviour
         transform.Rotate(0, 0, 360 * 4 * Time.deltaTime);
     }
 
-    protected virtual void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Enemy"))
         {
-            if (collision.gameObject.TryGetComponent(out SwordEnemy enemy))
+            if (collision.gameObject.TryGetComponent(out EnemyStats enemy))
             {
                 enemy.TakeDamage(currentDamage);
+                Instantiate(hitEnemyEffect, transform.position, Quaternion.identity);
             }
             gameObject.SetActive(false);
         }
         else if (collision.gameObject.CompareTag("Wall") || collision.gameObject.CompareTag("Wood") || collision.gameObject.CompareTag("Ground"))
         {
+            Instantiate(hitGroundAndWallEffect, this.transform.position, Quaternion.identity);
+            gameObject.SetActive(false);
+        }
+        else if (collision.gameObject.CompareTag("Trap"))
+        {
+            Instantiate(hitTrapEffect, this.transform.position, Quaternion.identity);
             gameObject.SetActive(false);
         }
     }

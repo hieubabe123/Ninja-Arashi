@@ -86,10 +86,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponData: {fileID: 11400000, guid: ebc847b2f8bfa034aa276a5e1ad628a8, type: 2}
   playerData: {fileID: 11400000, guid: d8ebfbd2619b13549b5eca6c302713cc, type: 2}
-  enemy: {fileID: 0}
+  hitGroundAndWallEffect: {fileID: 6927823741423453988, guid: 90a4e06adfbafa74aabe554c6db57fc9, type: 3}
+  hitEnemyEffect: {fileID: 1982042122025689129, guid: 48e2461182eb0ce42b077f71192cf223, type: 3}
+  hitTrapEffect: {fileID: 4448826415661869450, guid: 07af994d66b2cf04694c80e1d2241ce5, type: 3}
   lastMoveDirX: 0
-  rb: {fileID: 7675659374359758829}
-  cc: {fileID: 1945433083306494479}
 --- !u!1 &5127000052548680275
 GameObject:
   m_ObjectHideFlags: 0

@@ -14,9 +14,6 @@ public class EnemyScriptableObject : ScriptableObject
     [SerializeField] private float moveSpeedDetected;
     public float MoveSpeedDetected { get => moveSpeedDetected; private set => moveSpeedDetected = value; }
 
-    [SerializeField] private int damage;
-    public int Damage { get => damage; private set => damage = value; }
-
     [SerializeField] private int detectionDistance;
     public int DetectionDistance { get => detectionDistance; private set => detectionDistance = value; }
 

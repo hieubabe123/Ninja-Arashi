@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 using Unity.VisualScripting;
+using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -16,27 +17,27 @@ public class PlayerMovement : MonoBehaviour
 
 
 
-    private EnemyStats enemy;
     [SerializeField] private PlayerInputAction playerInputAction;
-    [SerializeField] private Rigidbody2D rb;
+    private PlayerAnimation playerAnimation;
+    private Rigidbody2D rb;
+    private CircleCollider2D circleCollider2D;
+    private CapsuleCollider2D capsuleCollider2D;
     [SerializeField] private Transform shurikenSpawnPos;
     [SerializeField] private GameObject deadPlayerPrefab;
     [SerializeField] private GameObject camouFlagePrefab;
-    [SerializeField] private GameObject rootPlayerPrefab;
+    [SerializeField] private List<GameObject> rootPlayerPrefabs = new List<GameObject>();
 
 
 
     [Header("---------------Stats---------------")]
     public float currentMoveSpeed;
+    public float currentMoveSpeedWhenCamouflaging;
     public float currentJumpForce;
     public float currentCooldownShuriken;
     public float currentCooldownCamouflage;
     public float currentCooldownDashKill;
     private int currentDiguiseDuration;
     private int currentLifeCount;
-    private int currentMoney;
-    private int currentGem;
-    private int currentScrollPaper;
     private float originalGravityScale;
 
 
@@ -54,53 +55,6 @@ public class PlayerMovement : MonoBehaviour
                 if (UIForAll.instance != null)
                 {
                     UIForAll.instance.currentLifeCountDisplay.text = CurrentLifeCount.ToString();
-                }
-            }
-        }
-    }
-
-    public int CurrentMoney
-    {
-        get { return currentMoney; }
-        set
-        {
-            if (currentMoney != value)
-            {
-                currentMoney = value;
-                if (UIForAll.instance != null)
-                {
-                    UIForAll.instance.currentMoneyDisplay.text = currentMoney.ToString();
-                }
-            }
-        }
-    }
-    public int CurrentGem
-    {
-        get { return currentGem; }
-        set
-        {
-            if (currentGem != value)
-            {
-                currentGem = value;
-                if (UIForAll.instance != null)
-                {
-                    UIForAll.instance.currentGemDisplay.text = currentGem.ToString();
-                }
-            }
-        }
-    }
-
-    public int CurrentScrollPaper
-    {
-        get { return currentScrollPaper; }
-        set
-        {
-            if (currentScrollPaper != value)
-            {
-                currentScrollPaper = value;
-                if (UIForAll.instance != null)
-                {
-                    UIForAll.instance.currentScrollPaperDisplay.text = currentScrollPaper.ToString();
                 }
             }
         }
@@ -150,8 +104,10 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        playerAnimation = GetComponent<PlayerAnimation>();
+        capsuleCollider2D = GetComponent<CapsuleCollider2D>();
+        circleCollider2D = GetComponent<CircleCollider2D>();
         playerInputAction = GetComponent<PlayerInputAction>();
-        enemy = FindObjectOfType<EnemyStats>();
 
 
         currentDashData = DataManager.instance.currentDashData;
@@ -161,14 +117,13 @@ public class PlayerMovement : MonoBehaviour
 
         currentMoveSpeed = playerData.MoveSpeed;
         currentJumpForce = playerData.JumpForce;
+        currentMoveSpeedWhenCamouflaging = playerData.MoveSpeedWhenCamouflaging;
+
         currentCooldownShuriken = DataManager.instance.currentThrowShurikenData.Cooldown;
         currentCooldownDashKill = DataManager.instance.currentDashData.Cooldown;
         currentCooldownCamouflage = DataManager.instance.currentCamouflageData.Cooldown;
         currentDiguiseDuration = DataManager.instance.currentCamouflageData.DiguiseDuration;
         CurrentLifeCount = DataManager.instance.currentHealAndShieldData.LifeCount;
-        CurrentMoney = playerData.Money;
-        CurrentGem = playerData.Gem;
-        CurrentScrollPaper = playerData.ScrollPaper;
     }
 
     private void Start()
@@ -179,14 +134,12 @@ public class PlayerMovement : MonoBehaviour
         isDeadByPoison = false;
 
         isImmortal = false;
+        isCamouflage = false;
         timeToImmortal = 0;
         lastMoveDirX = 1;
         originalGravityScale = rb.gravityScale;
 
         UIForAll.instance.currentLifeCountDisplay.text = CurrentLifeCount.ToString();
-        UIForAll.instance.currentMoneyDisplay.text = CurrentMoney.ToString();
-        UIForAll.instance.currentGemDisplay.text = CurrentGem.ToString();
-        UIForAll.instance.currentScrollPaperDisplay.text = CurrentScrollPaper.ToString();
     }
 
     private void OnDisable()
@@ -218,10 +171,6 @@ public class PlayerMovement : MonoBehaviour
         {
             canAttack = false;
         }
-        if (currentCooldownCamouflage > 0)
-        {
-            isCamouflage = false;
-        }
     }
 
     private void FixedUpdate()
@@ -235,6 +184,7 @@ public class PlayerMovement : MonoBehaviour
         jumpStatus = rb.velocity.y;
     }
 
+    #region Move, Jump and Flip Sprite
     public Vector2 MoveDirection()
     {
         return new Vector2(playerInputAction.GetNormalizedDirection().x, 0);
@@ -247,7 +197,15 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
         Vector2 moveDir = new Vector2(playerInputAction.GetNormalizedDirection().x, 0);
-        float moveDistance = currentMoveSpeed * Time.deltaTime;
+        float moveDistance;
+        if (!isCamouflage)
+        {
+            moveDistance = currentMoveSpeed * Time.deltaTime;
+        }
+        else
+        {
+            moveDistance = currentMoveSpeedWhenCamouflaging * Time.deltaTime;
+        }
         rb.velocity = new Vector2(moveDistance * moveDir.x, rb.velocity.y);
         Debug.Log("Moving");
         isMoving = Mathf.Abs(rb.velocity.x) > 0;
@@ -274,7 +232,9 @@ public class PlayerMovement : MonoBehaviour
         doubleJumpEffect.Emit(8);
         currentJump--;
     }
+    #endregion
 
+    #region Attack
     public void Fire()
     {
         currentCooldownShuriken = DataManager.instance.currentThrowShurikenData.Cooldown;
@@ -288,7 +248,6 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-
     public void DashKill()
     {
         if (isDashing && currentCooldownDashKill > 0)
@@ -300,15 +259,31 @@ public class PlayerMovement : MonoBehaviour
         originalGravityScale = rb.gravityScale;
         rb.gravityScale = 0;
 
+        capsuleCollider2D.isTrigger = true;
+        circleCollider2D.isTrigger = true;
         rb.velocity = Vector2.zero;
         float dashVelocity = dashDistance / dashDuration;
         rb.velocity = new Vector2(lastMoveDirX * dashVelocity, 0);
+        this.gameObject.layer = LayerMask.NameToLayer("PlayerDashing");
+
 
 
         currentCooldownDashKill = DataManager.instance.currentDashData.Cooldown;
         StartCoroutine(DashCoroutine());
     }
+    private IEnumerator DashCoroutine()
+    {
+        yield return new WaitForSeconds(dashDuration);
+        isDashing = false;
+        rb.gravityScale = originalGravityScale;
+        capsuleCollider2D.isTrigger = false;
+        circleCollider2D.isTrigger = false;
+        this.gameObject.layer = LayerMask.NameToLayer("Player");
 
+    }
+    #endregion
+
+    #region Camouflage
     public void Camouflage()
     {
         if (currentCooldownCamouflage > 0 && isCamouflage)
@@ -316,30 +291,37 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
         camouFlagePrefab.SetActive(true);
-        rootPlayerPrefab.SetActive(false);
+        foreach (var gameObj in rootPlayerPrefabs)
+        {
+            gameObj.SetActive(false);
+        }
         isCamouflage = true;
+        Instantiate(camouflageEffect, this.transform.position, Quaternion.identity);
+        this.gameObject.layer = LayerMask.NameToLayer("Wood");
 
         currentCooldownCamouflage = DataManager.instance.currentCamouflageData.Cooldown;
+
         StartCoroutine(CamouflageCoroutine());
-
-
     }
 
     private IEnumerator CamouflageCoroutine()
     {
         yield return new WaitForSeconds(currentDiguiseDuration);
+        TurnOffCamouflage();
+    }
+
+    public void TurnOffCamouflage()
+    {
         isCamouflage = false;
         camouFlagePrefab.SetActive(false);
-        rootPlayerPrefab.SetActive(true);
+        foreach (var gameObj in rootPlayerPrefabs)
+        {
+            gameObj.SetActive(true);
+        }
+        this.gameObject.layer = LayerMask.NameToLayer("Player");
     }
 
-    private IEnumerator DashCoroutine()
-    {
-        yield return new WaitForSeconds(dashDuration);
-        isDashing = false;
-        rb.gravityScale = originalGravityScale;
-    }
-
+    #endregion
 
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -371,7 +353,21 @@ public class PlayerMovement : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy") && isDashing)
         {
-            enemy.TakeDamage(100);
+            if (collision.gameObject.TryGetComponent(out EnemyStats enemy))
+            {
+                enemy.TakeDamage(100);
+            }
+        }
+        if (collision.gameObject.CompareTag("Wood") && isDashing)
+        {
+            if (collision.gameObject.TryGetComponent(out ObjectDestroy obj))
+            {
+                obj.DestroyObject();
+            }
+        }
+        if (collision.CompareTag("WinPos"))
+        {
+            GameManager.instance.GameWin();
         }
 
     }
@@ -403,6 +399,8 @@ public class PlayerMovement : MonoBehaviour
         {
             GameManager.instance.GameOver();
         }
+        playerAnimation.animator.Rebind();
+        playerAnimation.animator.Update(0f);
         this.gameObject.SetActive(false);
     }
 
@@ -435,7 +433,7 @@ public class PlayerMovement : MonoBehaviour
             Instantiate(coinCollectEffect, playerEffectPos.transform.position, Quaternion.identity);
 
         }
-        CurrentMoney += amount;
+        DataManager.instance.CurrentMoney += amount;
     }
 
     public void GetGem(int amount)
@@ -445,12 +443,12 @@ public class PlayerMovement : MonoBehaviour
             Instantiate(gemCollectEffect, playerEffectPos.transform.position, Quaternion.identity);
 
         }
-        CurrentGem += amount;
+        DataManager.instance.CurrentGem += amount;
     }
 
     public void GetScrollPaper(int amount)
     {
-        currentScrollPaper += amount;
+        DataManager.instance.CurrentScrollPaper += amount;
     }
 
     #endregion
@@ -458,6 +456,4 @@ public class PlayerMovement : MonoBehaviour
     {
         return isWalling;
     }
-
-
 }

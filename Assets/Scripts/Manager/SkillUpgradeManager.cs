@@ -44,10 +44,6 @@ public class SkillUpgradeManager : MonoBehaviour
     public TMP_Text healAndShieldButtonText;
     public TMP_Text camouflageButtonText;
 
-
-    [Header("---------------Player Data---------------")]
-    public PlayerScriptableObject playerData;
-
     private void Awake()
     {
         if (instance == null)
@@ -61,7 +57,6 @@ public class SkillUpgradeManager : MonoBehaviour
     }
     void Start()
     {
-        DataManager.instance.LoadSkillData();
         UpdateSkillButtonColors();
 
         dashSkillData = DataManager.instance.dashSkillData;
@@ -101,7 +96,6 @@ public class SkillUpgradeManager : MonoBehaviour
         SyncDataToDataManager();
         DataManager.instance.UpgradeCurrentSkillData();
         UpdateAllSkillDescriptions();
-        DataManager.instance.SaveSkillData();
     }
 
     private void UpdateButtonColor<T>(TMP_Text buttonText, int currentLevel, List<T> skillDataList) where T : SkillUpgradeScriptableObject
@@ -109,7 +103,7 @@ public class SkillUpgradeManager : MonoBehaviour
         if (currentLevel < skillDataList.Count - 1)
         {
             T nextSkill = skillDataList[currentLevel + 1];
-            if (playerData.Money >= nextSkill.MoneyToUpgrade && playerData.Gem >= nextSkill.GemToUpgrade)
+            if (DataManager.instance.currentMoney >= nextSkill.MoneyToUpgrade && DataManager.instance.currentGem >= nextSkill.GemToUpgrade)
             {
                 buttonText.color = Color.white;
             }
@@ -134,13 +128,13 @@ public class SkillUpgradeManager : MonoBehaviour
         }
 
         T nextSkill = skillDataList[currentLevel + 1];
-        if (playerData.Money >= nextSkill.MoneyToUpgrade && playerData.Gem >= nextSkill.GemToUpgrade)
+        if (DataManager.instance.currentMoney >= nextSkill.MoneyToUpgrade && DataManager.instance.currentGem >= nextSkill.GemToUpgrade)
         {
 
-            playerData.Money -= nextSkill.MoneyToUpgrade;
-            playerData.Gem -= nextSkill.GemToUpgrade;
-            UIForAll.instance.currentMoneyDisplay.text = playerData.Money.ToString();
-            UIForAll.instance.currentGemDisplay.text = playerData.Gem.ToString();
+            DataManager.instance.currentMoney -= nextSkill.MoneyToUpgrade;
+            DataManager.instance.currentGem -= nextSkill.GemToUpgrade;
+            UIForAll.instance.currentMoneyDisplay.text = DataManager.instance.currentMoney.ToString();
+            UIForAll.instance.currentGemDisplay.text = DataManager.instance.currentGem.ToString();
 
             currentLevel++;
             UpdateSkillCircle(skillCircles, currentLevel);
@@ -150,6 +144,7 @@ public class SkillUpgradeManager : MonoBehaviour
             return;
         }
         UpdateSkillButtonColors();
+        UpdateAllSkillCircles();
 
     }
 

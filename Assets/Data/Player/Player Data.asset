@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d4489dad7b4a1a45a16ec1f02c77d6c, type: 3}
   m_Name: Player Data
   m_EditorClassIdentifier: 
-  lifeCount: 2
   shurikenPrefab: {fileID: 2696259014521895879, guid: e4b9d2be864a4bc4cb5d7f76515f252c, type: 3}
   moveSpeed: 500
+  moveSpeedWhenCamouflaging: 200
   jumpForce: 40
-  money: 878000
-  gem: 898630
+  money: 60
+  gem: 30
   scrollPaper: 0

@@ -14798,12 +14798,18 @@ MonoBehaviour:
   currenthealAndShieldData: {fileID: 0}
   currentCamouflageData: {fileID: 0}
   playerInputAction: {fileID: 2023568347}
-  rb: {fileID: 2023568346}
   shurikenSpawnPos: {fileID: 1435387126}
   deadPlayerPrefab: {fileID: 0}
   camouFlagePrefab: {fileID: 1297904294}
-  rootPlayerPrefab: {fileID: 7349669549604611819}
+  rootPlayerPrefabs:
+  - {fileID: 7349669549604611819}
+  - {fileID: 1827060839}
+  - {fileID: 7349669549604610166}
+  - {fileID: 7349669549604610109}
+  - {fileID: 1435387125}
+  - {fileID: 5059998726923142796}
   currentMoveSpeed: 0
+  currentMoveSpeedWhenCamouflaging: 0
   currentJumpForce: 0
   currentCooldownShuriken: 0
   currentCooldownCamouflage: 0

@@ -12,6 +12,9 @@ public class PlayerScriptableObject : ScriptableObject
     [SerializeField] private float moveSpeed;
     public float MoveSpeed { get => moveSpeed; private set => moveSpeed = value; }
 
+    [SerializeField] private float moveSpeedWhenCamouflaging;
+    public float MoveSpeedWhenCamouflaging { get => moveSpeedWhenCamouflaging; private set => moveSpeedWhenCamouflaging = value; }
+
     [SerializeField] private float jumpForce;
     public float JumpForce { get => jumpForce; private set => jumpForce = value; }
 

@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerAnimation : MonoBehaviour
 {
     [SerializeField] private PlayerMovement player;
-    [SerializeField] private Animator animator;
+    [SerializeField] public Animator animator;
 
 
     private void Awake()
@@ -13,11 +13,6 @@ public class PlayerAnimation : MonoBehaviour
         player = GetComponent<PlayerMovement>();
     }
 
-    private void OnDisable()
-    {
-        animator.Rebind();
-        animator.Update(0f);
-    }
 
     private void Update()
     {

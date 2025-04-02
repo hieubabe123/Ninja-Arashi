@@ -42,16 +42,15 @@ public class PlayerInputAction : MonoBehaviour
 
     private void Jump(InputAction.CallbackContext context)
     {
-        if (context.performed)
+        if (context.performed && !playerMovement.isCamouflage)
         {
-            Debug.Log("Yess");
             playerMovement.Jump();
         }
     }
 
     private void Fire(InputAction.CallbackContext context)
     {
-        if (context.performed && playerMovement.currentCooldownShuriken <= 0)
+        if (context.performed && playerMovement.currentCooldownShuriken <= 0 && !playerMovement.isCamouflage)
         {
             playerMovement.Fire();
         }
@@ -59,18 +58,21 @@ public class PlayerInputAction : MonoBehaviour
 
     private void Camouflage(InputAction.CallbackContext context)
     {
-        if (context.performed && playerMovement.currentCooldownCamouflage <= 0)
+        if (context.performed && playerMovement.currentCooldownCamouflage <= 0 && !playerMovement.isCamouflage)
         {
             playerMovement.Camouflage();
+        }
+        else if (context.performed && playerMovement.isCamouflage)
+        {
+            playerMovement.TurnOffCamouflage();
         }
     }
 
     private void Dash(InputAction.CallbackContext context)
     {
-        if (context.performed && playerMovement.currentCooldownDashKill <= 0)
+        if (context.performed && playerMovement.currentCooldownDashKill <= 0 && !playerMovement.isCamouflage)
         {
             playerMovement.DashKill();
-            Debug.Log("Dashing");
         }
     }
 
