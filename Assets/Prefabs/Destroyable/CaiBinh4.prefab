@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1443961826}
   m_Layer: 11
   m_Name: CaiBinh4
-  m_TagString: Wood
+  m_TagString: Crystal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 4843795118223680027}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 214.68481, y: -2.979576, z: 0}
-  m_LocalScale: {x: 0.64000005, y: 0.723122, z: 0.83340544}
+  m_LocalScale: {x: 0.4, y: 0.45195127, z: 0.5208784}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 6f1f0e68e28acfe4e95e6e6b2c35a256, type: 2}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0

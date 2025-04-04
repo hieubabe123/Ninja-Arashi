@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moneyToUpgrade: 2000
   gemToUpgrade: 30
-  lifeCount: 4
-  shieldDuration: 2
   skillDescription: Maximum Life +1
+  lifeCount: 4
+  shieldDuration: 4

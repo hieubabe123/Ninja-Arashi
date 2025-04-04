@@ -21,7 +21,9 @@ public abstract class EnemyStats : MonoBehaviour
     public LayerMask playerLayer;
     public bool isDetecting = false;
     public bool canAttack = false;
-
+    private bool hasDetectedPlayerSFX = false;
+    private bool hasAttackedPlayerSFX = false;
+    private bool hasNotDetectedPlayerSFX = true;
     public Transform currentTarget;
 
 
@@ -97,12 +99,12 @@ public abstract class EnemyStats : MonoBehaviour
         if (currentLifeCount <= 0)
         {
             Dead();
+            AudioManager.instance.PlayListSFX(AudioManager.instance.enemyDeadSFX);
         }
     }
 
     private void Dead()
     {
-        Debug.Log("Deadd");
         isDead = true;
         rb.bodyType = RigidbodyType2D.Static;
         if (boxCollider != null)
@@ -134,7 +136,7 @@ public abstract class EnemyStats : MonoBehaviour
         RaycastHit2D attackHitAhead = Physics2D.Raycast(rayDetectPlayerPosition.transform.position, rayAttackingAheadDirection, currentAttackDistance, playerLayer);
         RaycastHit2D detectionHit = Physics2D.Raycast(rayDetectPlayerPosition.transform.position, rayDetectingDirection, currentDetectionDistance, playerLayer);
 
-        if (player.GetComponent<PlayerMovement>().isKilled && player.GetComponent<PlayerMovement>().isDashing)
+        if (player.GetComponent<PlayerMovement>().isKilled || player.GetComponent<PlayerMovement>().isDashing)
         {
             canAttack = false;
             return;
@@ -144,19 +146,37 @@ public abstract class EnemyStats : MonoBehaviour
         {
             currentmoveSpeed = 0;
             canAttack = true;
+            if (!hasAttackedPlayerSFX)
+            {
+                AudioManager.instance.PlayListSFX(AudioManager.instance.enemyAttackSFX);
+                hasAttackedPlayerSFX = true;
+            }
         }
         else
         {
             canAttack = false;
+            hasAttackedPlayerSFX = false;
             if (detectionHit.collider != null)
             {
                 currentmoveSpeed = enemyData.MoveSpeedDetected;
                 isDetecting = true;
+                if (!hasDetectedPlayerSFX)
+                {
+                    AudioManager.instance.PlayListSFX(AudioManager.instance.enemyDetectSFX);
+                    hasDetectedPlayerSFX = true;
+                    hasNotDetectedPlayerSFX = false;
+                }
             }
             else
             {
+                hasDetectedPlayerSFX = false;
                 isDetecting = false;
                 currentmoveSpeed = enemyData.MoveSpeedNormal;
+                if (!hasNotDetectedPlayerSFX)
+                {
+                    AudioManager.instance.PlayListSFX(AudioManager.instance.enemyNotDetectSFX);
+                    hasNotDetectedPlayerSFX = true;
+                }
             }
         }
     }

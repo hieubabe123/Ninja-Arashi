@@ -16,4 +16,4 @@ MonoBehaviour:
   gemToUpgrade: 45
   skillDescription: Shield duration +2s
   lifeCount: 4
-  shieldDuration: 4
+  shieldDuration: 6

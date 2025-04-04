@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Shield : PickUps
 {
-    public int timeToShield;
-
     public override void Collect()
     {
         if (hasBeenCollected)
@@ -17,6 +15,6 @@ public class Shield : PickUps
             base.Collect();
         }
         PlayerMovement player = FindObjectOfType<PlayerMovement>();
-        player.TakeShield(timeToShield);
+        player.TakeShield();
     }
 }

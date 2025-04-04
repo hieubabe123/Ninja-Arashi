@@ -34,7 +34,6 @@ public class UIForAll : MonoBehaviour
     private void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
-        UpdateUI();
     }
 
     private void OnDisable()

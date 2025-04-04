@@ -16,9 +16,7 @@ public class PlayerMovement : MonoBehaviour
     public CamouflageScriptableObject currentCamouflageData;
 
 
-
     [SerializeField] private PlayerInputAction playerInputAction;
-    private PlayerAnimation playerAnimation;
     private Rigidbody2D rb;
     private CircleCollider2D circleCollider2D;
     private CapsuleCollider2D capsuleCollider2D;
@@ -40,9 +38,6 @@ public class PlayerMovement : MonoBehaviour
     private int currentLifeCount;
     private float originalGravityScale;
 
-
-
-    #region Stats
     //Seperate private stat in PlayerStats script and child stat in another script
     public int CurrentLifeCount
     {
@@ -59,9 +54,8 @@ public class PlayerMovement : MonoBehaviour
             }
         }
     }
-    #endregion
 
-    private float timeToImmortal;
+    private float shieldDuration;
 
 
     [Header("---------------- Check State of Player --------------")]
@@ -73,7 +67,7 @@ public class PlayerMovement : MonoBehaviour
     public bool isDashing;
     public bool isCamouflage;
     public bool isKilled = false;
-    public bool isImmortal;
+    public bool haveShield;
     public float jumpStatus;
     public float throwStatus;
     public float lastMoveDirX;
@@ -104,7 +98,6 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        playerAnimation = GetComponent<PlayerAnimation>();
         capsuleCollider2D = GetComponent<CapsuleCollider2D>();
         circleCollider2D = GetComponent<CircleCollider2D>();
         playerInputAction = GetComponent<PlayerInputAction>();
@@ -123,6 +116,7 @@ public class PlayerMovement : MonoBehaviour
         currentCooldownDashKill = DataManager.instance.currentDashData.Cooldown;
         currentCooldownCamouflage = DataManager.instance.currentCamouflageData.Cooldown;
         currentDiguiseDuration = DataManager.instance.currentCamouflageData.DiguiseDuration;
+        shieldDuration = DataManager.instance.currentHealAndShieldData.ShieldDuration;
         CurrentLifeCount = DataManager.instance.currentHealAndShieldData.LifeCount;
     }
 
@@ -133,9 +127,8 @@ public class PlayerMovement : MonoBehaviour
         isDeadByElectric = false;
         isDeadByPoison = false;
 
-        isImmortal = false;
+        haveShield = false;
         isCamouflage = false;
-        timeToImmortal = 0;
         lastMoveDirX = 1;
         originalGravityScale = rb.gravityScale;
 
@@ -150,16 +143,9 @@ public class PlayerMovement : MonoBehaviour
         isDeadByPoison = false;
     }
 
+
     private void Update()
     {
-        if (timeToImmortal <= 0)
-        {
-            isImmortal = false;
-        }
-        else
-        {
-            timeToImmortal -= Time.deltaTime;
-        }
         if (currentJump <= 0)
         {
             canJumping = false;
@@ -207,7 +193,6 @@ public class PlayerMovement : MonoBehaviour
             moveDistance = currentMoveSpeedWhenCamouflaging * Time.deltaTime;
         }
         rb.velocity = new Vector2(moveDistance * moveDir.x, rb.velocity.y);
-        Debug.Log("Moving");
         isMoving = Mathf.Abs(rb.velocity.x) > 0;
         if (moveDir.x != 0)
         {
@@ -231,6 +216,7 @@ public class PlayerMovement : MonoBehaviour
         rb.AddForce(currentJumpForce * Vector3.up, ForceMode2D.Impulse);
         doubleJumpEffect.Emit(8);
         currentJump--;
+        AudioManager.instance.PlayListSFX(AudioManager.instance.playerJumpSFX);
     }
     #endregion
 
@@ -245,6 +231,7 @@ public class PlayerMovement : MonoBehaviour
         {
             shuriken.transform.position = shurikenSpawnPos.position;
             shuriken.SetActive(true);
+            AudioManager.instance.PlayListSFX(AudioManager.instance.shurikenThrowSFX);
         }
     }
 
@@ -265,7 +252,7 @@ public class PlayerMovement : MonoBehaviour
         float dashVelocity = dashDistance / dashDuration;
         rb.velocity = new Vector2(lastMoveDirX * dashVelocity, 0);
         this.gameObject.layer = LayerMask.NameToLayer("PlayerDashing");
-
+        AudioManager.instance.PlaySFX(AudioManager.instance.playerDashingSFX);
 
 
         currentCooldownDashKill = DataManager.instance.currentDashData.Cooldown;
@@ -280,6 +267,9 @@ public class PlayerMovement : MonoBehaviour
         circleCollider2D.isTrigger = false;
         this.gameObject.layer = LayerMask.NameToLayer("Player");
 
+
+        AudioManager.instance.PlayListSFX(AudioManager.instance.playerDashDoneSFX);
+
     }
     #endregion
 
@@ -291,6 +281,7 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
         camouFlagePrefab.SetActive(true);
+        AudioManager.instance.PlaySFX(AudioManager.instance.playerCamouflageSFX);
         foreach (var gameObj in rootPlayerPrefabs)
         {
             gameObj.SetActive(false);
@@ -341,12 +332,21 @@ public class PlayerMovement : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Trap"))
         {
-            if (!isImmortal)
+            if (!haveShield)
             {
                 Kill();
+                AudioManager.instance.PlayListSFX(AudioManager.instance.playerDeadByEnemySFX);
             }
         }
 
+    }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isGround = true;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -387,9 +387,10 @@ public class PlayerMovement : MonoBehaviour
 
     public void Kill()
     {
-        currentLifeCount--;
+        CurrentLifeCount = CurrentLifeCount - 1;
         deadPlayerPrefab.SetActive(true);
         deadPlayerPrefab.transform.position = this.gameObject.transform.position;
+
         if (currentLifeCount > 0)
         {
             CheckpointManager.instance.RespawnPlayer(this.gameObject, deadPlayerPrefab, 2f);
@@ -399,8 +400,6 @@ public class PlayerMovement : MonoBehaviour
         {
             GameManager.instance.GameOver();
         }
-        playerAnimation.animator.Rebind();
-        playerAnimation.animator.Update(0f);
         this.gameObject.SetActive(false);
     }
 
@@ -415,15 +414,23 @@ public class PlayerMovement : MonoBehaviour
         CurrentLifeCount += amount;
     }
 
-    public void TakeShield(float time)
+    public void TakeShield()
     {
         if (shieldEffect != null)
         {
-            Instantiate(shieldEffect, playerEffectPos.transform.position, Quaternion.identity);
+            shieldEffect.Play();
 
         }
-        isImmortal = true;
-        timeToImmortal += time;
+        haveShield = true;
+        StartCoroutine(WaitToUnshield());
+
+    }
+
+    private IEnumerator WaitToUnshield()
+    {
+        yield return new WaitForSeconds(shieldDuration);
+        haveShield = false;
+        shieldEffect.Stop();
     }
 
     public void GetMoney(int amount)

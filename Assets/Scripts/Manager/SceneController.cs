@@ -7,8 +7,16 @@ public class SceneController : MonoBehaviour
 {
     public void SceneChange(string sceneName)
     {
+        StartCoroutine(LoadSceneAndData(sceneName));
+
+    }
+
+    private IEnumerator LoadSceneAndData(string sceneName)
+    {
         SceneManager.LoadScene(sceneName);
-        Time.timeScale = 1.0f;
+        Time.timeScale = 1;
+        yield return null; // Wait for the scene to load
+
         SaveAndLoadManager.LoadGame();
     }
 

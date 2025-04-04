@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DataManager : MonoBehaviour
 {
@@ -122,9 +123,12 @@ public class DataManager : MonoBehaviour
 
     void Start()
     {
-        UIForAll.instance.currentMoneyDisplay.text = CurrentMoney.ToString();
-        UIForAll.instance.currentGemDisplay.text = CurrentGem.ToString();
-        UIForAll.instance.currentScrollPaperDisplay.text = CurrentScrollPaper.ToString();
+        if (UIForAll.instance != null)
+        {
+            UIForAll.instance.currentMoneyDisplay.text = CurrentMoney.ToString();
+            UIForAll.instance.currentGemDisplay.text = CurrentGem.ToString();
+            UIForAll.instance.currentScrollPaperDisplay.text = CurrentScrollPaper.ToString();
+        }
     }
 
     public void UpgradeCurrentSkillData()
@@ -165,6 +169,21 @@ public class DataManager : MonoBehaviour
 
             }
         }
+    }
+
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        SaveAndLoadManager.LoadGame();
     }
 
 

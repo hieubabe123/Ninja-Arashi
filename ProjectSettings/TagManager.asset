@@ -28,6 +28,7 @@ TagManager:
   - Money
   - Scroll
   - WinPos
+  - Crystal
   layers:
   - Default
   - TransparentFX

@@ -11,8 +11,8 @@ public class DeadZone : MonoBehaviour
         {
             if (player != null)
             {
-
                 player.Kill();
+                AudioManager.instance.PlaySFX(AudioManager.instance.playerDeadByJumpSFX);
             }
         }
     }

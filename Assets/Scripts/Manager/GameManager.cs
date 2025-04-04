@@ -60,7 +60,6 @@ public class GameManager : MonoBehaviour
                 }
                 break;
             default:
-                Debug.LogWarning("State not exist");
                 break;
         }
     }

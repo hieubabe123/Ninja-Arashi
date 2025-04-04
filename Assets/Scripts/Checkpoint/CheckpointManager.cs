@@ -9,13 +9,20 @@ public class CheckpointManager : MonoBehaviour
     public Checkpoint currentCheckpoint;
     public ParticleSystem revivalPlayerEffect;
     public List<Checkpoint> checkpoint = new List<Checkpoint>();
-    void Start()
+
+    void Awake()
     {
         if (instance == null)
         {
             instance = this;
         }
-
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+    void Start()
+    {
         if (currentCheckpoint == null)
         {
             currentCheckpoint = checkpoint[0];
@@ -29,14 +36,12 @@ public class CheckpointManager : MonoBehaviour
 
     public void RespawnPlayer(GameObject player, GameObject deadPlayer, float delayTime)
     {
-        Debug.Log("Waiting");
         StartCoroutine(RespawnCoroutine(player, deadPlayer, delayTime));
     }
 
     private IEnumerator RespawnCoroutine(GameObject player, GameObject deadPlayer, float delayTime)
     {
         yield return new WaitForSeconds(delayTime);
-        Debug.Log("Waiting Respawn");
         player.transform.position = CheckpointPosition();
         player.SetActive(true);
         deadPlayer.SetActive(false);
@@ -44,6 +49,7 @@ public class CheckpointManager : MonoBehaviour
         Vector3 revivalEffectTransform = new Vector3(player.transform.position.x, player.transform.position.y - 2f, player.transform.position.z);
 
         Instantiate(revivalPlayerEffect, revivalEffectTransform, Quaternion.identity);
+        AudioManager.instance.PlayListSFX(AudioManager.instance.playerRevivalSFX);
     }
 
 

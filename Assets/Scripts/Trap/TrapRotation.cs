@@ -22,7 +22,7 @@ public class TrapRotation : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             PlayerMovement player = FindObjectOfType<PlayerMovement>();
-            if (!player.isImmortal)
+            if (!player.haveShield)
             {
                 player.Kill();
                 player.isDeadByEnemies = true;

@@ -10,10 +10,11 @@ public class PoisonCollider : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             player = FindObjectOfType<PlayerMovement>();
-            if (!player.isImmortal)
+            if (player.haveShield == false)
             {
                 player.Kill();
                 player.isDeadByPoison = true;
+                AudioManager.instance.PlayListSFX(AudioManager.instance.playerDeadByPoisonSFX);
             }
             else
             {

@@ -16,4 +16,4 @@ MonoBehaviour:
   gemToUpgrade: 70
   skillDescription: Maximum Life +1
   lifeCount: 5
-  shieldDuration: 4
+  shieldDuration: 6

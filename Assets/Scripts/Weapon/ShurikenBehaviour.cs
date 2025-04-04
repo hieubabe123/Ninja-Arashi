@@ -15,6 +15,7 @@ public class ShurikenBehaviour : MonoBehaviour
     [SerializeField] private ParticleSystem hitEnemyEffect;
     [SerializeField] private ParticleSystem hitTrapEffect;
 
+
     public float lastMoveDirX;
 
     private int currentDamage;
@@ -61,18 +62,32 @@ public class ShurikenBehaviour : MonoBehaviour
             {
                 enemy.TakeDamage(currentDamage);
                 Instantiate(hitEnemyEffect, transform.position, Quaternion.identity);
+                AudioManager.instance.PlayListSFX(AudioManager.instance.shurikenHitEnemySFX);
             }
             gameObject.SetActive(false);
         }
-        else if (collision.gameObject.CompareTag("Wall") || collision.gameObject.CompareTag("Wood") || collision.gameObject.CompareTag("Ground"))
+        else if (collision.gameObject.CompareTag("Wall") || collision.gameObject.CompareTag("Wood") || collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("Crystal"))
         {
             Instantiate(hitGroundAndWallEffect, this.transform.position, Quaternion.identity);
             gameObject.SetActive(false);
+            if (collision.gameObject.CompareTag("Wall") || collision.gameObject.CompareTag("Ground"))
+            {
+                AudioManager.instance.PlaySFX(AudioManager.instance.shurikenHitSFX);
+            }
+            else if (collision.gameObject.CompareTag("Wood"))
+            {
+                AudioManager.instance.PlaySFX(AudioManager.instance.shurikenHitWoodSFX);
+            }
+            else if (collision.gameObject.CompareTag("Crystal"))
+            {
+                AudioManager.instance.PlayListSFX(AudioManager.instance.shurikenHitCrystalSFX);
+            }
         }
         else if (collision.gameObject.CompareTag("Trap"))
         {
             Instantiate(hitTrapEffect, this.transform.position, Quaternion.identity);
             gameObject.SetActive(false);
+            AudioManager.instance.PlaySFX(AudioManager.instance.shurikenHitTrapSFX);
         }
     }
 

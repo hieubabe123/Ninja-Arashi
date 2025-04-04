@@ -5,7 +5,9 @@ using UnityEngine;
 public class SwordBehaviour : MonoBehaviour
 {
     private EnemyStats enemy;
-    // Start is called before the first frame update
+    void Awake()
+    {
+    }
     void Start()
     {
         enemy = GetComponentInParent<EnemyStats>();
@@ -16,10 +18,11 @@ public class SwordBehaviour : MonoBehaviour
         if (collision.gameObject.CompareTag("Player") && enemy.isDetecting && enemy.canAttack)
         {
             PlayerMovement player = FindObjectOfType<PlayerMovement>();
-            if (player != null && !player.isImmortal)
+            if (player != null && !player.haveShield)
             {
                 player.Kill();
                 player.isDeadByEnemies = true;
+                AudioManager.instance.PlayListSFX(AudioManager.instance.playerDeadByEnemySFX);
             }
             else
             {

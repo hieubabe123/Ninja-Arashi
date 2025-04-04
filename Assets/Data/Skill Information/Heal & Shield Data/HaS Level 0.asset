@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moneyToUpgrade: 0
   gemToUpgrade: 0
-  lifeCount: 3
-  shieldDuration: 2
   skillDescription: 
+  lifeCount: 3
+  shieldDuration: 4
