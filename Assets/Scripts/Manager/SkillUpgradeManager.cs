@@ -57,7 +57,7 @@ public class SkillUpgradeManager : MonoBehaviour
     }
     void Start()
     {
-        UpdateSkillButtonColors();
+        UpdateSkillButtonTextColors();
 
         dashSkillData = DataManager.instance.dashSkillData;
         throwShurikenData = DataManager.instance.throwShurikenData;
@@ -74,8 +74,12 @@ public class SkillUpgradeManager : MonoBehaviour
         currentThrowShurikenLevel = DataManager.instance.currentThrowShurikenLevel;
         currentCamouflageLevel = DataManager.instance.currentCamouflageLevel;
 
-    }
+        UpdateSkillButtonTextColors();
 
+        UpdateAllSkillCircles();
+        UpdateAllSkillDescriptions();
+
+    }
     public void OnClickUpgradeSkill(string skillType)
     {
         switch (skillType)
@@ -96,9 +100,10 @@ public class SkillUpgradeManager : MonoBehaviour
         SyncDataToDataManager();
         DataManager.instance.UpgradeCurrentSkillData();
         UpdateAllSkillDescriptions();
+
     }
 
-    private void UpdateButtonColor<T>(TMP_Text buttonText, int currentLevel, List<T> skillDataList) where T : SkillUpgradeScriptableObject
+    private void UpdateButtonTextColor<T>(TMP_Text buttonText, int currentLevel, List<T> skillDataList) where T : SkillUpgradeScriptableObject
     {
         if (currentLevel < skillDataList.Count - 1)
         {
@@ -130,30 +135,30 @@ public class SkillUpgradeManager : MonoBehaviour
         T nextSkill = skillDataList[currentLevel + 1];
         if (DataManager.instance.currentMoney >= nextSkill.MoneyToUpgrade && DataManager.instance.currentGem >= nextSkill.GemToUpgrade)
         {
-
-            DataManager.instance.currentMoney -= nextSkill.MoneyToUpgrade;
-            DataManager.instance.currentGem -= nextSkill.GemToUpgrade;
-            UIForAll.instance.currentMoneyDisplay.text = DataManager.instance.currentMoney.ToString();
-            UIForAll.instance.currentGemDisplay.text = DataManager.instance.currentGem.ToString();
+            DataManager.instance.CurrentMoney -= nextSkill.MoneyToUpgrade;
+            DataManager.instance.CurrentGem -= nextSkill.GemToUpgrade;
+            UIForAll.instance.currentMoneyDisplay.text = DataManager.instance.CurrentMoney.ToString();
+            UIForAll.instance.currentGemDisplay.text = DataManager.instance.CurrentGem.ToString();
 
             currentLevel++;
-            UpdateSkillCircle(skillCircles, currentLevel);
         }
         else
         {
             return;
         }
-        UpdateSkillButtonColors();
+        SaveAndLoadManager.SaveGame();
+        UpdateSkillButtonTextColors();
         UpdateAllSkillCircles();
+        UpdateAllSkillDescriptions();
 
     }
 
-    private void UpdateSkillButtonColors()
+    private void UpdateSkillButtonTextColors()
     {
-        UpdateButtonColor(dashSkillButtonText, currentDashLevel, dashSkillData);
-        UpdateButtonColor(throwShurikenButtonText, currentThrowShurikenLevel, throwShurikenData);
-        UpdateButtonColor(healAndShieldButtonText, currentHealAndShieldLevel, healAndShieldData);
-        UpdateButtonColor(camouflageButtonText, currentCamouflageLevel, camouflageSkillData);
+        UpdateButtonTextColor(dashSkillButtonText, currentDashLevel, dashSkillData);
+        UpdateButtonTextColor(throwShurikenButtonText, currentThrowShurikenLevel, throwShurikenData);
+        UpdateButtonTextColor(healAndShieldButtonText, currentHealAndShieldLevel, healAndShieldData);
+        UpdateButtonTextColor(camouflageButtonText, currentCamouflageLevel, camouflageSkillData);
     }
 
 

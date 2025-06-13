@@ -6,7 +6,13 @@ using UnityEngine.SceneManagement;
 public class DataManager : MonoBehaviour
 {
     public static DataManager instance;
+    public enum TargetPanel
+    {
+        Upgrade,
+        Shop
+    }
     public PlayerScriptableObject playerData;
+    public TargetPanel activePanelOnLoad = TargetPanel.Upgrade;
 
 
     [Header("---------------Current Collectible Of Player (Coin,Gem,Scroll)---------------")]
